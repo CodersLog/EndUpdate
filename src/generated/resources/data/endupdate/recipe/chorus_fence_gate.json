@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "endupdate:chorus_planks",
+    "I": "minecraft:stick"
+  },
+  "pattern": [
+    "IBI",
+    "IBI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "endupdate:chorus_fence_gate"
+  }
+}

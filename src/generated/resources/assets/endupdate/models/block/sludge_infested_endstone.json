@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "endupdate:block/sludge_infested_endstone_bottom",
+    "side": "endupdate:block/sludge_infested_endstone_side",
+    "top": "endupdate:block/sludge_infested_endstone_top"
+  }
+}

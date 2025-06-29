@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "sludge_bricks",
+  "key": {
+    "#": "endupdate:sludge_bricks"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "endupdate:sludge_brick_stairs"
+  }
+}
