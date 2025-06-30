@@ -1,4 +1,4 @@
-// 1.21.5	2025-06-29T12:25:40.599655	Loot Tables
+// 1.21.5	2025-06-30T17:03:37.9752136	Loot Tables
 de162f540d647d917a943610e0c1e47d8db6e092 data/endupdate/loot_table/blocks/chorus_berry_bush.json
 a562d4d88c8980949d641a879f1c4f37231d83b5 data/endupdate/loot_table/blocks/chorus_button.json
 fca2cb72e6e4df9dd0d6227872f6e3dcd758eed4 data/endupdate/loot_table/blocks/chorus_door.json
@@ -15,6 +15,7 @@ d2c9ad0bcb219c7b72eb677316bc218137240ef9 data/endupdate/loot_table/blocks/chorus
 63ee65b830a4a615af598dad69bc6939f9c11a1a data/endupdate/loot_table/blocks/chorus_warts.json
 6e3ad1d8361eb5653c788619dc1085fb5a5e2186 data/endupdate/loot_table/blocks/chorus_wood.json
 1d13ffe2f01fd6bc1f0f9635bd8dd51410c8bafc data/endupdate/loot_table/blocks/packed_sludge.json
+a520c051fd94f4ab0338abb160a0d1b6d0473e48 data/endupdate/loot_table/blocks/ruined_end_portal.json
 8b3d938dec607d5918b8bcbc671979428bdb783a data/endupdate/loot_table/blocks/sludge.json
 5a26fd876612a2039fd1ac00a9d2c47185116027 data/endupdate/loot_table/blocks/sludge_bricks.json
 369f135f98cf29ea5194cfd113386f6f20d84acf data/endupdate/loot_table/blocks/sludge_brick_slab.json

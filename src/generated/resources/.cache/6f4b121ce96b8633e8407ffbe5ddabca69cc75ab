@@ -1,4 +1,4 @@
-// 1.21.5	2025-06-29T12:25:40.6046564	Model Definitions - endupdate
+// 1.21.5	2025-06-30T17:03:37.9807296	Model Definitions - endupdate
 690a249fb56a3d3ad7adb5e209a4d4b714c352e3 assets/endupdate/blockstates/chorus_berry_bush.json
 e83a987d35f9ccc327183f95ed89f074ef19c569 assets/endupdate/blockstates/chorus_button.json
 8079f216afa5f8da993b5c82db58ce3cac497440 assets/endupdate/blockstates/chorus_door.json
@@ -42,6 +42,7 @@ cc85f9d98115d95db2d979a0283e18507d201a77 assets/endupdate/items/chorus_trapdoor.
 2cb3b841f600816e17453788e7f6597545b33f53 assets/endupdate/items/chorus_warts.json
 4789333c606efc25846dd15cb5d5cd9112bfb3c6 assets/endupdate/items/chorus_wood.json
 cc599928daaa27f72e58f4466a184fe2d407401f assets/endupdate/items/packed_sludge.json
+bd59ec186afc7ea96322507e2bb206967f8d4278 assets/endupdate/items/ruined_end_portal.json
 a94bf4d40f55bc48df2cc9b290f0063bb3466482 assets/endupdate/items/sludge.json
 4c90b319314091368ad3fa57a69216ca529cd334 assets/endupdate/items/sludge_bricks.json
 7fc6637cd5b072a1d14a1748ff3352cc7e4296ec assets/endupdate/items/sludge_brick_slab.json

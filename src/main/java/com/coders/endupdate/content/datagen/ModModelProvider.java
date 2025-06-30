@@ -22,6 +22,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
+import java.util.stream.Stream;
+
 import static net.minecraft.client.data.models.BlockModelGenerators.*;
 
 public class ModModelProvider extends ModelProvider {
@@ -43,6 +45,7 @@ public class ModModelProvider extends ModelProvider {
         blockModels.createTrivialCube(ModBlocks.ZENILITE_SLUDGE.get());
         blockModels.createTrivialBlock(ModBlocks.SLUDGE_INFESTED_ENDSTONE.get(), TexturedModel.CUBE_TOP_BOTTOM);
         blockModels.createTrivialCube(ModBlocks.PACKED_SLUDGE.get());
+
 
         blockModels.family(ModBlocks.CHORUS_PLANKS.get())
                 .fence(ModBlocks.CHORUS_FENCE.get())
@@ -74,6 +77,13 @@ public class ModModelProvider extends ModelProvider {
 
 
     }
+
+    @Override
+    protected Stream<? extends Holder<Block>> getKnownBlocks() {
+        return ModBlocks.BLOCKS.getEntries().stream().filter(x -> !x.is(ModBlocks.RUINED_END_PORTAL));
+    }
+
+
 
 
 

@@ -1,7 +1,23 @@
 {
 	"variants": {
-		"": {
+		"facing=north": {
 			"model": "endupdate:block/ruined_end_portal"
+		},
+		"facing=south": {
+			"model": "endupdate:block/ruined_end_portal",
+			"y": 180
+		},
+		"facing=east": {
+			"model": "endupdate:block/ruined_end_portal",
+			"y": 90
+		},
+		"facing=west": {
+			"model": "endupdate:block/ruined_end_portal",
+			"y": 270
 		}
 	}
 }
+
+
+
+

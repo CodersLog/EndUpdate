@@ -57,6 +57,8 @@ public class ModConfiguredFeatures {
                                 .defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3))
                         ), List.of(ModBlocks.SLUDGE.get())));
 
+
+
         register(context, SGF_KEY, Feature.RANDOM_PATCH,
                 FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.SLUDGE_FERMENTED_GRASS.get()
