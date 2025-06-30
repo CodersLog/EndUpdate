@@ -29,7 +29,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
 
         tag(BlockTags.MINEABLE_WITH_SHOVEL)
+                .add(ModBlocks.ZENILITE_SLUDGE.get())
                 .add(ModBlocks.SLUDGE.get());
+
 
         tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.STRIPPED_CHORUS_LOG.get())
@@ -79,6 +81,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
 
         tag(ModTags.Blocks.SLUDGE_BLOCK)
+                .add(ModBlocks.SLUDGE_INFESTED_ENDSTONE.get())
+                .add(ModBlocks.ZENILITE_SLUDGE.get())
                 .add(ModBlocks.SLUDGE.get());
 
 

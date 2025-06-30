@@ -54,6 +54,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.STRIPPED_CHORUS_LOG.get());
         dropSelf(ModBlocks.STRIPPED_CHORUS_WOOD.get());
         dropWhenSilkTouch(ModBlocks.ZENILITE_SLUDGE.get());
+        dropOther(ModBlocks.ZENILITE_SLUDGE.get(),ModBlocks.SLUDGE.asItem());
         dropSelf(ModBlocks.RUINED_END_PORTAL.get());
 
 

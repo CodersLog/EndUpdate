@@ -1,6 +1,8 @@
 package com.coders.endupdate.content.datagen;
 
 import com.coders.endupdate.EndUpdate;
+import com.coders.endupdate.content.item.ModItems;
+import com.coders.endupdate.content.loot.AddItemModifier;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;

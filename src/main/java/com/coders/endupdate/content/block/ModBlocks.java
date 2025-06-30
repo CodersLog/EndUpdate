@@ -48,11 +48,12 @@ public class ModBlocks {
                     .strength(4.0F)
                     .sound(SoundType.MUD)
                     .randomTicks()
-                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:sludge")))));
+                    .requiresCorrectToolForDrops()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:sludge_infested_endstone")))));
 
 
     public static final DeferredBlock<Block> SLUDGE = registerBlock("sludge",
-            (properties) -> new Block(BlockBehaviour.Properties.of()
+            (properties) -> new BlockSludge(BlockBehaviour.Properties.of()
                     .strength(4.0F)
                     .sound(SoundType.MUD)
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:sludge")))));
@@ -144,17 +145,19 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> CHORUS_BERRY_BUSH = BLOCKS.registerBlock("chorus_berry_bush",
             (properties) -> new ChorusBerryBlock(properties.mapColor(MapColor.PLANT).strength(0.2F)
-                    .randomTicks().sound(SoundType.CROP).noOcclusion().pushReaction(PushReaction.DESTROY)));
+                    .randomTicks().noCollission().sound(SoundType.CROP).noOcclusion().pushReaction(PushReaction.DESTROY)));
 
     public static final DeferredBlock<Block> SLUDGE_FERMENTED_GRASS = registerBlock("sludge_fermented_grass",
             (properties) -> new BlockSludgeFermentedGrass(BlockBehaviour.Properties.of()
                     .strength(4.0F).instabreak()
+                    .noCollission()
                     .sound(SoundType.GRASS).noOcclusion()
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:sludge_fermented_grass")))));
 
     public static final DeferredBlock<Block> CHORUS_WARTS = registerBlock("chorus_warts",
             (properties) -> new BlockSludgeFermentedGrass(BlockBehaviour.Properties.of()
                     .strength(4.0F).instabreak()
+                    .noCollission()
                     .sound(SoundType.GRASS).noOcclusion()
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:chorus_warts")))));
 

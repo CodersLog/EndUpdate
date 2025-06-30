@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "endupdate:sludge"
+          "name": "endupdate:ruined_end_portal"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "endupdate:blocks/sludge"
+  "random_sequence": "endupdate:blocks/ruined_end_portal"
 }
