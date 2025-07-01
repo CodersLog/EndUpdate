@@ -18,6 +18,8 @@ public class ModBiomes {
     private static List<ResourceKey<Biome>> allBiomes = Lists.newArrayList();
 
     public static final ResourceKey<Biome> SLUDGE_FIELDS = registerOverworld("sludgefields");
+    public static final ResourceKey<Biome> NUCLEOSIS = registerOverworld("nucleosis");
+
 
     public static List<ResourceKey<Biome>> getOverworldBiomes()
     {

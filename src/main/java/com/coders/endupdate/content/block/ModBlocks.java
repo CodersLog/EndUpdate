@@ -3,6 +3,7 @@ package com.coders.endupdate.content.block;
 import com.coders.endupdate.EndUpdate;
 import com.coders.endupdate.content.block.bushes.ChorusBerryBlock;
 import com.coders.endupdate.content.block.custom.*;
+import com.coders.endupdate.content.block.infested.NoliumInfestedEndstoneBlock;
 import com.coders.endupdate.content.block.vegitation.BlockSludgeFermentedGrass;
 import com.coders.endupdate.content.item.ModItems;
 import com.coders.endupdate.content.worldgen.Features.tree.ModTreeGrowers;
@@ -50,6 +51,14 @@ public class ModBlocks {
                     .randomTicks()
                     .requiresCorrectToolForDrops()
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:sludge_infested_endstone")))));
+
+    public static final DeferredBlock<Block> NOLIUM_ENDSTONE = registerBlock("nolium_endstone",
+            (properties) -> new NoliumInfestedEndstoneBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .randomTicks()
+                    .requiresCorrectToolForDrops()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:nolium_endstone")))));
 
 
     public static final DeferredBlock<Block> SLUDGE = registerBlock("sludge",

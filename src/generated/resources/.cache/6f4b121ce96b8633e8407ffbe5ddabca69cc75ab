@@ -1,4 +1,4 @@
-// 1.21.5	2025-06-30T17:03:37.9807296	Model Definitions - endupdate
+// 1.21.5	2025-06-30T23:47:02.5741062	Model Definitions - endupdate
 690a249fb56a3d3ad7adb5e209a4d4b714c352e3 assets/endupdate/blockstates/chorus_berry_bush.json
 e83a987d35f9ccc327183f95ed89f074ef19c569 assets/endupdate/blockstates/chorus_button.json
 8079f216afa5f8da993b5c82db58ce3cac497440 assets/endupdate/blockstates/chorus_door.json
@@ -14,6 +14,7 @@ c1b4d4d300e7aa90a7d90288b1e84751ed41f49c assets/endupdate/blockstates/chorus_sta
 fdc868e671b66f42fff54b37f2e817554489ab9e assets/endupdate/blockstates/chorus_trapdoor.json
 aaaf5cc1c4ff0dec64568d565a7bcfcdc080d22a assets/endupdate/blockstates/chorus_warts.json
 f7f853d8fdb5dbd3bc5d69d7dbc874f27829a10a assets/endupdate/blockstates/chorus_wood.json
+e321c7ec7cddbaccda3c6c75d8ad9b8ff0697b99 assets/endupdate/blockstates/nolium_endstone.json
 e7f29614cad4b5dec39e152b97122396eb0bb80f assets/endupdate/blockstates/packed_sludge.json
 f21cdd719713418e4469e83e71cb7be10caea0d0 assets/endupdate/blockstates/sludge.json
 370774fda89cbdd196c481f1625fc2bec48898fb assets/endupdate/blockstates/sludge_bricks.json
@@ -41,6 +42,7 @@ cc85f9d98115d95db2d979a0283e18507d201a77 assets/endupdate/items/chorus_trapdoor.
 2cb3b841f600816e17453788e7f6597545b33f53 assets/endupdate/items/chorus_wart.json
 2cb3b841f600816e17453788e7f6597545b33f53 assets/endupdate/items/chorus_warts.json
 4789333c606efc25846dd15cb5d5cd9112bfb3c6 assets/endupdate/items/chorus_wood.json
+9558f9044cc974bf817d7d0d15fedd707ff44ce3 assets/endupdate/items/nolium_endstone.json
 cc599928daaa27f72e58f4466a184fe2d407401f assets/endupdate/items/packed_sludge.json
 bd59ec186afc7ea96322507e2bb206967f8d4278 assets/endupdate/items/ruined_end_portal.json
 a94bf4d40f55bc48df2cc9b290f0063bb3466482 assets/endupdate/items/sludge.json
@@ -93,6 +95,7 @@ e2f75d2187cdd79b67698d62cb9e48d968f17c4d assets/endupdate/models/block/chorus_tr
 0be78cbf9768e86889592e0ea5a217ab27f52e28 assets/endupdate/models/block/chorus_trapdoor_top.json
 dc31e18cba2d2af584236286bc9415efcf79ccfd assets/endupdate/models/block/chorus_warts.json
 4aae0c7f6c92b424d0291f5d3571199ffb55c846 assets/endupdate/models/block/chorus_wood.json
+410b1b58c17e2aad764e36200263292fa4155703 assets/endupdate/models/block/nolium_endstone.json
 e569818209b9494941a0e8dba09ebc3afcb0cedf assets/endupdate/models/block/packed_sludge.json
 d3d02c400b1128b589a3e9e8b5af90caa2f34eb7 assets/endupdate/models/block/sludge.json
 bbbc95a3c1c204a2bf9f3379b70ef16849e45c99 assets/endupdate/models/block/sludge_bricks.json

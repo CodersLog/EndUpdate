@@ -78,6 +78,9 @@ public class EndUpdate {
                 output.accept(ModBlocks.CHORUS_SAPLING.asItem().getDefaultInstance());
                 output.accept(ModItems.CHORUS_BERRIES.asItem().getDefaultInstance());
                 output.accept(ModBlocks.ZENILITE_SLUDGE.asItem().getDefaultInstance());
+                output.accept(ModItems.ZENILITE_RESIN.asItem().getDefaultInstance());
+                output.accept(ModBlocks.NOLIUM_ENDSTONE.asItem().getDefaultInstance());
+
 
                 // Add the example item to the tab. For your own tabs, this method is preferred over the event
             }).build());

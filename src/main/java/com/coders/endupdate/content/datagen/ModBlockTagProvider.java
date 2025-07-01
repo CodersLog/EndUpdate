@@ -25,6 +25,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SLUDGE_BRICK_STAIRS.get())
                 .add(ModBlocks.SLUDGE_BRICK_SLAB.get())
                 .add(ModBlocks.SLUDGE_INFESTED_ENDSTONE.get())
+                .add(ModBlocks.NOLIUM_ENDSTONE.get())
                 .add(ModBlocks.PACKED_SLUDGE.get());
 
 

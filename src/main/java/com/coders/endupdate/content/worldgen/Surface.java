@@ -20,9 +20,8 @@ public class Surface {
 
 
     private static final SurfaceRules.RuleSource SLUDGE = makeStateRule(ModBlocks.SLUDGE.get());
-    private static final SurfaceRules.RuleSource ES = makeStateRule(Blocks.END_STONE);
+    private static final SurfaceRules.RuleSource NOLIUM = makeStateRule(ModBlocks.NOLIUM_ENDSTONE.get());
     private static final SurfaceRules.RuleSource SIES = makeStateRule(ModBlocks.SLUDGE_INFESTED_ENDSTONE.get());
-    private static final SurfaceRules.RuleSource AND = makeStateRule(ModBlocks.SLUDGE_INFESTED_ENDSTONE.get());
 
 
     private static SurfaceRules.RuleSource makeStateRule(Block block) {
@@ -35,17 +34,23 @@ public class Surface {
     public static SurfaceRules.RuleSource end()
     {
 
+        return SurfaceRules.sequence
+                (SurfaceRules.ifTrue
 
-        return SurfaceRules.sequence(
-                SurfaceRules.ifTrue(
-                        SurfaceRules.isBiome(ModBiomes.SLUDGE_FIELDS),
-                        SurfaceRules.sequence(
-                                SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR,SLUDGE),
-                                SurfaceRules.ifTrue(SurfaceRules.UNDER_FLOOR, SIES)
 
-                                )
-                        )
-                );
+                        (SurfaceRules.isBiome
+                                (ModBiomes.SLUDGE_FIELDS),
+                                SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR,SLUDGE),
+                                SurfaceRules.ifTrue(SurfaceRules.UNDER_FLOOR, SIES))),
+
+        SurfaceRules.ifTrue
+
+
+                (SurfaceRules.isBiome
+                                (ModBiomes.NUCLEOSIS),
+                        SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR,NOLIUM))));
+
+
 
 }
 

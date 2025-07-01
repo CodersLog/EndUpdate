@@ -42,6 +42,8 @@ public class ModModelProvider extends ModelProvider {
 
         //BLOCKS
         blockModels.createTrivialCube(ModBlocks.SLUDGE.get());
+        blockModels.createTrivialBlock(ModBlocks.NOLIUM_ENDSTONE.get(), TexturedModel.CUBE_TOP_BOTTOM);
+
         blockModels.createTrivialCube(ModBlocks.ZENILITE_SLUDGE.get());
         blockModels.createTrivialBlock(ModBlocks.SLUDGE_INFESTED_ENDSTONE.get(), TexturedModel.CUBE_TOP_BOTTOM);
         blockModels.createTrivialCube(ModBlocks.PACKED_SLUDGE.get());

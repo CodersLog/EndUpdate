@@ -1,6 +1,5 @@
 package com.coders.endupdate.content.datagen;
 
-import com.coders.endupdate.content.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.DataMapProvider;
