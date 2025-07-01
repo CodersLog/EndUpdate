@@ -68,6 +68,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropWhenSilkTouch(ModBlocks.NOLIUM_ENDSTONE.get());
         dropWhenSilkTouch(ModBlocks.SLUDGE_INFESTED_ENDSTONE.get());
 
+        dropSelf(ModBlocks.NOLIUM_MOSS.get());
+
         dropOther(ModBlocks.CHORUS_LEAVES.get(),ModBlocks.CHORUS_SAPLING.asItem());
 
         dropSelf(ModBlocks.CHORUS_SAPLING.get());

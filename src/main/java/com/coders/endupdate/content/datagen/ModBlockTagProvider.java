@@ -28,6 +28,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.NOLIUM_ENDSTONE.get())
                 .add(ModBlocks.PACKED_SLUDGE.get());
 
+        tag(ModTags.Blocks.MOD_MOSS)
+                .add(ModBlocks.NOLIUM_MOSS.get());
+
 
         tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.ZENILITE_SLUDGE.get())

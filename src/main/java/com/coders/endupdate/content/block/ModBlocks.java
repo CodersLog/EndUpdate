@@ -61,6 +61,14 @@ public class ModBlocks {
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:nolium_endstone")))));
 
 
+    public static final DeferredBlock<Block> NOLIUM_MOSS = registerBlock("nolium_moss",
+            (properties) -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.MOSS_BLOCK)
+                    .strength(4.0F)
+                    .sound(SoundType.MOSS)
+                    .randomTicks()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:nolium_moss")))));
+
+
     public static final DeferredBlock<Block> SLUDGE = registerBlock("sludge",
             (properties) -> new BlockSludge(BlockBehaviour.Properties.of()
                     .strength(4.0F)

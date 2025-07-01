@@ -62,6 +62,8 @@ public class ModModelProvider extends ModelProvider {
         blockModels.woodProvider(ModBlocks.CHORUS_LOG.get()).logWithHorizontal(ModBlocks.CHORUS_LOG.get()).wood(ModBlocks.CHORUS_WOOD.get());
         blockModels.woodProvider(ModBlocks.STRIPPED_CHORUS_LOG.get()).logWithHorizontal(ModBlocks.STRIPPED_CHORUS_LOG.get()).wood(ModBlocks.STRIPPED_CHORUS_WOOD.get());
 
+        blockModels.createTrivialBlock(ModBlocks.NOLIUM_MOSS.get(), TexturedModel.CUBE);
+
         blockModels.createCrossBlock(ModBlocks.SLUDGE_FERMENTED_GRASS.get(), PlantType.TINTED);
 
         blockModels.createCropBlock(ModBlocks.CHORUS_BERRY_BUSH.get(), ChorusBerryBlock.AGE,  0, 1, 2, 3);
