@@ -1,4 +1,5 @@
 {
+  "endupdate:chorus_berry_effect": "Random Teleport",
   "item.endupdate.chorus_berries": "Chorus Berries",
   "item.endupdate.chorus_button": "Chorus Button",
   "item.endupdate.chorus_door": "Chorus Door",
@@ -25,8 +26,21 @@
   "item.endupdate.sludge_bricks": "Sludge Bricks",
   "item.endupdate.sludge_fermented_grass": "Sludge Fermented Grass",
   "item.endupdate.sludge_infested_endstone": "Sludge Infested Endstone",
+  "item.endupdate.spore_willow_button": "Spore Willow Button",
+  "item.endupdate.spore_willow_door": "Spore Willow Door",
+  "item.endupdate.spore_willow_fence": "Spore Willow Fence",
+  "item.endupdate.spore_willow_fence_gate": "Spore Willow Fence Date",
+  "item.endupdate.spore_willow_log": "Spore Willow Log",
+  "item.endupdate.spore_willow_planks": "Spore Willow Planks",
+  "item.endupdate.spore_willow_pressure_plate": "Spore Willow Pressure Plate",
+  "item.endupdate.spore_willow_slab": "Spore Willow Plank Slab",
+  "item.endupdate.spore_willow_stairs": "Spore Willow Stairs",
+  "item.endupdate.spore_willow_trapdoor": "Spore Willow Trapdoor",
+  "item.endupdate.spore_willow_wood": "Spore Willow Wood",
   "item.endupdate.stripped_chorus_log": "Stripped Chorus Log",
   "item.endupdate.stripped_chorus_wood": "Stripped Chorus Wood",
+  "item.endupdate.stripped_spore_willow_log": "Stripped Spore Willow Log",
+  "item.endupdate.stripped_spore_willow_wood": "Stripped Spore Willow Wood",
   "item.endupdate.zenilite_resin": "Zenilite Resin",
   "item.endupdate.zenilite_sludge": "Zenilite Sludge"
 }

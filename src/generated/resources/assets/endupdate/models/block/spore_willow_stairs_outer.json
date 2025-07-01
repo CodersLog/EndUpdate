@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "endupdate:block/spore_willow_planks",
+    "side": "endupdate:block/spore_willow_planks",
+    "top": "endupdate:block/spore_willow_planks"
+  }
+}

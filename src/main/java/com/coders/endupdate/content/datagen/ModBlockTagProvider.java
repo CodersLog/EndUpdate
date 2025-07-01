@@ -50,7 +50,20 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.CHORUS_TRAPDOOR.get())
                 .add(ModBlocks.CHORUS_PRESSURE_PLATE.get())
                 .add(ModBlocks.CHORUS_BUTTON.get())
-                .add(ModBlocks.CHORUS_LOG.get());
+                .add(ModBlocks.CHORUS_LOG.get())
+                .add(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.get())
+                .add(ModBlocks.STRIPPED_SPORE_WILLOW_WOOD.get())
+                .add(ModBlocks.SPORE_WILLOW_WOOD.get())
+                .add(ModBlocks.SPORE_WILLOW_PLANKS.get())
+                .add(ModBlocks.SPORE_WILLOW_STAIRS.get())
+                .add(ModBlocks.SPORE_WILLOW_SLAB.get())
+                .add(ModBlocks.SPORE_WILLOW_FENCE.get())
+                .add(ModBlocks.SPORE_WILLOW_FENCE_GATE.get())
+                .add(ModBlocks.SPORE_WILLOW_DOOR.get())
+                .add(ModBlocks.SPORE_WILLOW_TRAPDOOR.get())
+                .add(ModBlocks.SPORE_WILLOW_PRESSURE_PLATE.get())
+                .add(ModBlocks.SPORE_WILLOW_BUTTON.get())
+                .add(ModBlocks.SPORE_WILLOW_LOG.get());
 
         tag(BlockTags.WALLS)
                 .add(ModBlocks.SLUDGE_BRICK_WALL.get());

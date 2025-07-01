@@ -1,4 +1,4 @@
-// 1.21.5	2025-07-01T18:02:40.6458467	Tags for minecraft:block mod id endupdate
+// 1.21.5	2025-07-01T23:56:35.0422743	Tags for minecraft:block mod id endupdate
 9b1c8bac7f127054b8bd8c4ad1203feb79710c1c data/endupdate/tags/block/infested.json
 34e7f7d7fc0c58df5455fb28afcbf6fc66a11c45 data/endupdate/tags/block/mod_moss_blocks.json
 2233a5dc62808667f7ca2ecd49d7588f8e22ffa8 data/endupdate/tags/block/sludge_blocks.json
@@ -8,7 +8,7 @@ d53bb9dc21b3bd93e2f3577707244ee02e665536 data/endupdate/tags/block/sludge_replac
 6acb63c1735401dc2fbbf8bd9b0ef98b4143c762 data/minecraft/tags/block/fence_gates.json
 1ce4050a95477b67724d30f76e2dbf60b85132b8 data/minecraft/tags/block/logs.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/logs_that_burn.json
-8de01b7d90f7e3c02d3a6e8c875613268bd20af1 data/minecraft/tags/block/mineable/axe.json
+49e847a8b28cd501ac461a0fe16506b809d63180 data/minecraft/tags/block/mineable/axe.json
 9a42d7ed2781f0f0f16e6c9cf27ef359be33864e data/minecraft/tags/block/mineable/pickaxe.json
 785625294b6ef4f7d644b250394790b3c202e151 data/minecraft/tags/block/mineable/shovel.json
 b5ba0e740365407dcc1957fb280cd4bdbfe916b3 data/minecraft/tags/block/saplings.json

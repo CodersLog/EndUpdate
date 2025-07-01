@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "endupdate:block/spore_willow_planks"
+  }
+}

@@ -1,5 +1,12 @@
 {
   "values": [
-    "endupdate:chorus_log"
+    "endupdate:stripped_chorus_wood",
+    "endupdate:chorus_wood",
+    "endupdate:stripped_chorus_log",
+    "endupdate:chorus_log",
+    "endupdate:stripped_spore_willow_wood",
+    "endupdate:spore_willow_wood",
+    "endupdate:stripped_spore_willow_log",
+    "endupdate:spore_willow_log"
   ]
 }

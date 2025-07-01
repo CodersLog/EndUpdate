@@ -12,6 +12,19 @@
     "endupdate:chorus_trapdoor",
     "endupdate:chorus_pressure_plate",
     "endupdate:chorus_button",
-    "endupdate:chorus_log"
+    "endupdate:chorus_log",
+    "endupdate:stripped_spore_willow_log",
+    "endupdate:stripped_spore_willow_wood",
+    "endupdate:spore_willow_wood",
+    "endupdate:spore_willow_planks",
+    "endupdate:spore_willow_stairs",
+    "endupdate:spore_willow_slab",
+    "endupdate:spore_willow_fence",
+    "endupdate:spore_willow_fence_gate",
+    "endupdate:spore_willow_door",
+    "endupdate:spore_willow_trapdoor",
+    "endupdate:spore_willow_pressure_plate",
+    "endupdate:spore_willow_button",
+    "endupdate:spore_willow_log"
   ]
 }

@@ -12,7 +12,6 @@ public class ModTags {
     public static class Blocks {
 
         public static final TagKey<Block> SLUDGE_BLOCKS = createTag("sludge_blocks");
-        public static final TagKey<Block> CHORUSLOGS = createTag("chorus_logs");
 
         public static final TagKey<Block> INFESTED = createTag("infested");
         public static final TagKey<Block> SLUDGE_REPLACEABLES = createTag("sludge_replacable");
@@ -28,6 +27,7 @@ public class ModTags {
     public static class Items {
 
         public static final TagKey<Item> CHORUSLOGS = createTag("chorus_logs");
+        public static final TagKey<Item> SPORE_WILLOWLOGS = createTag("spore_willow_logs");
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(EndUpdate.MODID, name));

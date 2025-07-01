@@ -79,6 +79,20 @@ public class ModModelProvider extends ModelProvider {
                 .stairs(ModBlocks.SLUDGE_BRICK_STAIRS.get())
                 .slab(ModBlocks.SLUDGE_BRICK_SLAB.get());
 
+        blockModels.family(ModBlocks.SPORE_WILLOW_PLANKS.get())
+                .fence(ModBlocks.SPORE_WILLOW_FENCE.get())
+                .fenceGate(ModBlocks.SPORE_WILLOW_FENCE_GATE.get())
+                .stairs(ModBlocks.SPORE_WILLOW_STAIRS.get())
+                .slab(ModBlocks.SPORE_WILLOW_SLAB.get())
+                .button(ModBlocks.SPORE_WILLOW_BUTTON.get())
+                .pressurePlate(ModBlocks.SPORE_WILLOW_PRESSURE_PLATE.get())
+                .door(ModBlocks.SPORE_WILLOW_DOOR.get())
+                .trapdoor(ModBlocks.SPORE_WILLOW_TRAPDOOR.get());
+
+        blockModels.woodProvider(ModBlocks.SPORE_WILLOW_LOG.get()).logWithHorizontal(ModBlocks.SPORE_WILLOW_LOG.get()).wood(ModBlocks.SPORE_WILLOW_WOOD.get());
+        blockModels.woodProvider(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.get()).logWithHorizontal(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.get()).wood(ModBlocks.STRIPPED_SPORE_WILLOW_WOOD.get());
+
+
 
     }
 

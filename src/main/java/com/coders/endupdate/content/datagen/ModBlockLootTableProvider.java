@@ -103,6 +103,25 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.CHORUS_DOOR.get(),
                 block -> createDoorTable(ModBlocks.CHORUS_DOOR.get()));
 
+        dropSelf(ModBlocks.SPORE_WILLOW_LOG.get());
+        dropSelf(ModBlocks.SPORE_WILLOW_WOOD.get());
+        dropSelf(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.get());
+        dropSelf(ModBlocks.STRIPPED_SPORE_WILLOW_WOOD.get());
+        dropSelf(ModBlocks.SPORE_WILLOW_STAIRS.get());
+        dropSelf(ModBlocks.SPORE_WILLOW_PLANKS.get());
+        add(ModBlocks.SPORE_WILLOW_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SPORE_WILLOW_SLAB.get()));
+
+        dropSelf(ModBlocks.SPORE_WILLOW_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.SPORE_WILLOW_BUTTON.get());
+
+        dropSelf(ModBlocks.SPORE_WILLOW_FENCE.get());
+        dropSelf(ModBlocks.SPORE_WILLOW_FENCE_GATE.get());
+        dropSelf(ModBlocks.SPORE_WILLOW_TRAPDOOR.get());
+
+        add(ModBlocks.SPORE_WILLOW_DOOR.get(),
+                block -> createDoorTable(ModBlocks.SPORE_WILLOW_DOOR.get()));
+
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

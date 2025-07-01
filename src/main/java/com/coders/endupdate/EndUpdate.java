@@ -80,6 +80,19 @@ public class EndUpdate {
                 output.accept(ModBlocks.ZENILITE_SLUDGE.asItem().getDefaultInstance());
                 output.accept(ModItems.ZENILITE_RESIN.asItem().getDefaultInstance());
                 output.accept(ModBlocks.NOLIUM_ENDSTONE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_LOG.asItem().getDefaultInstance());
+                output.accept(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_WOOD.asItem().getDefaultInstance());
+                output.accept(ModBlocks.STRIPPED_SPORE_WILLOW_WOOD.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_PLANKS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_STAIRS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_SLAB.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_FENCE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_FENCE_GATE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_DOOR.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_TRAPDOOR.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_PRESSURE_PLATE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_BUTTON.asItem().getDefaultInstance());
 
 
                 // Add the example item to the tab. For your own tabs, this method is preferred over the event
@@ -118,6 +131,8 @@ public class EndUpdate {
 
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHORUS_TRAPDOOR.get(), RenderType.CUTOUT);
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHORUS_DOOR.get(), RenderType.CUTOUT);
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPORE_WILLOW_DOOR.get(), RenderType.CUTOUT);
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPORE_WILLOW_TRAPDOOR.get(), RenderType.CUTOUT);
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHORUS_BERRY_BUSH.get(), RenderType.CUTOUT);
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.SLUDGE_FERMENTED_GRASS.get(), RenderType.CUTOUT);
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHORUS_WARTS.get(), RenderType.CUTOUT);

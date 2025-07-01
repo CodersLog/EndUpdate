@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "endupdate:block/spore_willow_door_bottom",
+    "top": "endupdate:block/spore_willow_door_top"
+  }
+}

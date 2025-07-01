@@ -2,6 +2,7 @@ package com.coders.endupdate.content.datagen;
 
 import com.coders.endupdate.EndUpdate;
 import com.coders.endupdate.content.block.ModBlocks;
+import com.coders.endupdate.content.effect.ModEffects;
 import com.coders.endupdate.content.item.ModItems;
 import net.minecraft.data.PackOutput;
 
@@ -13,10 +14,26 @@ public class LanguageProvider extends net.neoforged.neoforge.common.data.Languag
     @Override
     protected void addTranslations() {
 
+        add(ModEffects.CHORUS_BERRY_EFFECT.getRegisteredName(), "Random Teleport");
+
         add(ModItems.ZENILITE_RESIN.get(), "Zenilite Resin");
 
         add(ModItems.CHORUS_BERRIES.get(), "Chorus Berries");
         add(ModItems.CHORUS_WART.get(), "Chorus Wart");
+
+        add(ModBlocks.SPORE_WILLOW_PLANKS.get().asItem(),"Spore Willow Planks");
+        add(ModBlocks.SPORE_WILLOW_SLAB.get().asItem(),"Spore Willow Plank Slab");
+        add(ModBlocks.SPORE_WILLOW_BUTTON.get().asItem(),"Spore Willow Button");
+        add(ModBlocks.SPORE_WILLOW_WOOD.get().asItem(),"Spore Willow Wood");
+        add(ModBlocks.SPORE_WILLOW_TRAPDOOR.get().asItem(),"Spore Willow Trapdoor");
+        add(ModBlocks.SPORE_WILLOW_STAIRS.get().asItem(),"Spore Willow Stairs");
+        add(ModBlocks.SPORE_WILLOW_DOOR.get().asItem(),"Spore Willow Door");
+        add(ModBlocks.SPORE_WILLOW_PRESSURE_PLATE.get().asItem(),"Spore Willow Pressure Plate");
+        add(ModBlocks.SPORE_WILLOW_LOG.get().asItem(),"Spore Willow Log");
+        add(ModBlocks.SPORE_WILLOW_FENCE_GATE.get().asItem(),"Spore Willow Fence Date");
+        add(ModBlocks.SPORE_WILLOW_FENCE.get().asItem(),"Spore Willow Fence");
+        add(ModBlocks.STRIPPED_SPORE_WILLOW_WOOD.get().asItem(),"Stripped Spore Willow Wood");
+        add(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.get().asItem(),"Stripped Spore Willow Log");
 
         add(ModBlocks.CHORUS_PLANKS.get().asItem(),"Chorus Planks");
         add(ModBlocks.CHORUS_SLAB.get().asItem(),"Chorus Plank Slab");

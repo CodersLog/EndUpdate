@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "endupdate:spore_willow_planks"
+  ],
+  "result": {
+    "count": 1,
+    "id": "endupdate:spore_willow_button"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "endupdate:spore_willow_planks",
+    "I": "minecraft:stick"
+  },
+  "pattern": [
+    "BIB",
+    "BIB"
+  ],
+  "result": {
+    "count": 3,
+    "id": "endupdate:spore_willow_fence"
+  }
+}

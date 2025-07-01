@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "endupdate:block/spore_willow_slab"
+    },
+    "type=double": {
+      "model": "endupdate:block/spore_willow_planks"
+    },
+    "type=top": {
+      "model": "endupdate:block/spore_willow_slab_top"
+    }
+  }
+}
