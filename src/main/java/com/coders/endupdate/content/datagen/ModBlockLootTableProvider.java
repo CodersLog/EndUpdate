@@ -43,11 +43,36 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.SLUDGE.get());
         dropSelf(ModBlocks.SLUDGE_BRICKS.get());
         dropSelf(ModBlocks.PACKED_SLUDGE.get());
+        dropSelf(ModBlocks.MALACHITE_BRICKS.get());
+        dropSelf(ModBlocks.MALACHITE.get());
+        dropSelf(ModBlocks.POLISHED_MALACHITE.get());
+
+        dropSelf(ModBlocks.CHISELED_MALACHITE_BRICKS.get());
 
         dropSelf(ModBlocks.SLUDGE_BRICK_STAIRS.get());
+
+        dropSelf(ModBlocks.MALACHITE_WALL.get());
+        dropSelf(ModBlocks.MALACHITE_BRICKS_WALL.get());
+
+
+        dropSelf(ModBlocks.POLISHED_MALACHITE_STAIRS.get());
+        dropSelf(ModBlocks.MALACHITE_STAIRS.get());
+        dropSelf(ModBlocks.MALACHITE_BRICKS_STAIRS.get());
+
+
         add(ModBlocks.SLUDGE_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.SLUDGE_BRICK_SLAB.get()));
 
+        add(ModBlocks.POLISHED_MALACHITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.POLISHED_MALACHITE_SLAB.get()));
+
+        add(ModBlocks.MALACHITE_BRICKS_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MALACHITE_BRICKS_SLAB.get()));
+
+        add(ModBlocks.MALACHITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MALACHITE_SLAB.get()));
+
+        dropSelf(ModBlocks.CHISELED_ENDSTONE_BRICKS.get());
         dropSelf(ModBlocks.SLUDGE_BRICK_WALL.get());
         dropSelf(ModBlocks.CHORUS_LOG.get());
         dropSelf(ModBlocks.CHORUS_WOOD.get());

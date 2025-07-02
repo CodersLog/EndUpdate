@@ -38,6 +38,8 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> CHWART_KEY = registerKey("chwart");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ZENILITE_LARGE = registerKey("zelilite_large");
 
+    public static final ResourceKey<ConfiguredFeature<?, ?>> NOLIUM_MOSS_CONFIG = registerKey("nolium_moss_config");
+
     public static final ResourceKey<ConfiguredFeature<?, ?>> CHORUS_BERRY_BUSH_KEY = registerKey("chorus_berry_bush");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
@@ -94,6 +96,9 @@ public class ModConfiguredFeatures {
 
         register(context, ZENILITE_LARGE, Feature.ORE, new OreConfiguration(sludgeReplaceables,
                 ModBlocks.ZENILITE_SLUDGE.get().defaultBlockState(), 9));
+
+        register(context, NOLIUM_MOSS_CONFIG, Feature.ORE, new OreConfiguration(sludgeReplaceables,
+                ModBlocks.NOLIUM_MOSS.get().defaultBlockState(), 9));
 
     }
 

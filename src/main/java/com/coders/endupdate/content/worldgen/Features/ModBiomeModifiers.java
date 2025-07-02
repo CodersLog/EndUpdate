@@ -24,6 +24,7 @@ public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_CHWART = registerKey("add_chwart");
     public static final ResourceKey<BiomeModifier> ADD_ZENILITE_SLUDGE = registerKey("add_zenilite_sludge");
     public static final ResourceKey<BiomeModifier> ADD_CHORUS_BERRY_BUSH = registerKey("add_chorus_berry_bush");
+    public static final ResourceKey<BiomeModifier> ADD_NOLIUM_MOSS = registerKey("add_nolium_moss");
 
     public static void bootstrap(BootstrapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
@@ -69,6 +70,11 @@ public class ModBiomeModifiers {
                 HolderSet.direct(biomes.getOrThrow(ModBiomes.SLUDGE_FIELDS)),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.ZENILITE_SLUDGE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
+
+        context.register(ADD_NOLIUM_MOSS, new BiomeModifiers.AddFeaturesBiomeModifier(
+                HolderSet.direct(biomes.getOrThrow(ModBiomes.NUCLEOSIS)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.NOLIUM_MOSS_PLACED_KEY)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
 
     }
 

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "endupdate:block/malachite_slab"
+    },
+    "type=double": {
+      "model": "endupdate:block/malachite"
+    },
+    "type=top": {
+      "model": "endupdate:block/malachite_slab_top"
+    }
+  }
+}

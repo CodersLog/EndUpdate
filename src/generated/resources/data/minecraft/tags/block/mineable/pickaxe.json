@@ -5,7 +5,19 @@
     "endupdate:sludge_brick_stairs",
     "endupdate:sludge_brick_slab",
     "endupdate:sludge_infested_endstone",
-    "endupdate:nolium_endstone",
+    "endupdate:malachite_bricks",
+    "endupdate:malachite_bricks_stairs",
+    "endupdate:malachite_bricks_slab",
+    "endupdate:malachite_bricks_wall",
+    "endupdate:malachite",
+    "endupdate:malachite_wall",
+    "endupdate:malachite_slab",
+    "endupdate:malachite_stairs",
+    "endupdate:polished_malachite",
+    "endupdate:polished_malachite_stairs",
+    "endupdate:polished_malachite_slab",
+    "endupdate:chiseled_malachite_bricks",
+    "endupdate:chiseled_endstone_bricks",
     "endupdate:packed_sludge"
   ]
 }

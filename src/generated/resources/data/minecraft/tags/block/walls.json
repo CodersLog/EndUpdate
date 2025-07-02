@@ -1,5 +1,7 @@
 {
   "values": [
+    "endupdate:malachite_wall",
+    "endupdate:malachite_bricks_wall",
     "endupdate:sludge_brick_wall"
   ]
 }

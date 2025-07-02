@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "malachite_bricks",
+  "key": {
+    "#": "endupdate:malachite_bricks"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "endupdate:malachite_bricks_stairs"
+  }
+}

@@ -107,6 +107,24 @@ public class EndUpdate {
                 output.accept(ModBlocks.DEAD_SPORE_WILLOW_PRESSURE_PLATE.asItem().getDefaultInstance());
                 output.accept(ModBlocks.DEAD_SPORE_WILLOW_BUTTON.asItem().getDefaultInstance());
                 output.accept(ModBlocks.SPORE_WILLOW_LEAVES.asItem().getDefaultInstance());
+                output.accept(ModBlocks.MALACHITE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.MALACHITE_STAIRS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.MALACHITE_SLAB.asItem().getDefaultInstance());
+                output.accept(ModBlocks.MALACHITE_WALL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.POLISHED_MALACHITE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.POLISHED_MALACHITE_STAIRS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.POLISHED_MALACHITE_SLAB.asItem().getDefaultInstance());
+                output.accept(ModBlocks.MALACHITE_BRICKS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.MALACHITE_BRICKS_STAIRS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.MALACHITE_BRICKS_SLAB.asItem().getDefaultInstance());
+                output.accept(ModBlocks.MALACHITE_BRICKS_WALL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.CHISELED_MALACHITE_BRICKS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.CHISELED_ENDSTONE_BRICKS.asItem().getDefaultInstance());
+
+
+
+
+
 
 
                 // Add the example item to the tab. For your own tabs, this method is preferred over the event

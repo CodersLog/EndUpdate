@@ -412,7 +412,58 @@ public class ModBlocks {
     //SLABS
     public static final DeferredBlock<SlabBlock> SLUDGE_BRICK_SLAB = registerBlock("sludge_brick_slab",
             (properties) -> new SlabBlock(properties.strength(2f).requiresCorrectToolForDrops()));
-    //WALLS
+
+    public static final DeferredBlock<Block> CHISELED_ENDSTONE_BRICKS = registerBlock("chiseled_endstone_bricks",
+            (properties) -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:chiseled_endstone_bricks")))));
+
+
+    public static final DeferredBlock<Block> MALACHITE = registerBlock("malachite",
+            (properties) -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:malachite")))));
+    public static final DeferredBlock<Block> POLISHED_MALACHITE = registerBlock("polished_malachite",
+            (properties) -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:polished_malachite")))));
+    public static final DeferredBlock<Block> MALACHITE_BRICKS = registerBlock("malachite_bricks",
+            (properties) -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:malachite_bricks")))));
+    public static final DeferredBlock<Block> CHISELED_MALACHITE_BRICKS = registerBlock("chiseled_malachite_bricks",
+            (properties) -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:chiseled_malachite_bricks")))));
+
+
+    public static final DeferredBlock<WallBlock> MALACHITE_WALL = registerBlock("malachite_wall",
+            (properties) -> new WallBlock(properties.strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<WallBlock> MALACHITE_BRICKS_WALL = registerBlock("malachite_bricks_wall",
+            (properties) -> new WallBlock(properties.strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<SlabBlock> MALACHITE_SLAB = registerBlock("malachite_slab",
+            (properties) -> new SlabBlock(properties.strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> MALACHITE_BRICKS_SLAB = registerBlock("malachite_bricks_slab",
+            (properties) -> new SlabBlock(properties.strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> POLISHED_MALACHITE_SLAB = registerBlock("polished_malachite_slab",
+            (properties) -> new SlabBlock(properties.strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<StairBlock> MALACHITE_STAIRS = registerBlock("malachite_stairs",
+            (properties) -> new StairBlock(ModBlocks.SLUDGE_BRICKS.get().defaultBlockState(),
+                    properties.strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> MALACHITE_BRICKS_STAIRS = registerBlock("malachite_bricks_stairs",
+            (properties) -> new StairBlock(ModBlocks.SLUDGE_BRICKS.get().defaultBlockState(),
+                    properties.strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> POLISHED_MALACHITE_STAIRS = registerBlock("polished_malachite_stairs",
+            (properties) -> new StairBlock(ModBlocks.SLUDGE_BRICKS.get().defaultBlockState(),
+                    properties.strength(2f).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<WallBlock> SLUDGE_BRICK_WALL = registerBlock("sludge_brick_wall",
             (properties) -> new WallBlock(properties.strength(2f).requiresCorrectToolForDrops()));

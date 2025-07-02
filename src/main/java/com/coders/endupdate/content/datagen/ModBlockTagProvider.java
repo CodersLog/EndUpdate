@@ -25,7 +25,19 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SLUDGE_BRICK_STAIRS.get())
                 .add(ModBlocks.SLUDGE_BRICK_SLAB.get())
                 .add(ModBlocks.SLUDGE_INFESTED_ENDSTONE.get())
-                .add(ModBlocks.NOLIUM_ENDSTONE.get())
+                .add(ModBlocks.MALACHITE_BRICKS.get())
+                .add(ModBlocks.MALACHITE_BRICKS_STAIRS.get())
+                .add(ModBlocks.MALACHITE_BRICKS_SLAB.get())
+                .add(ModBlocks.MALACHITE_BRICKS_WALL.get())
+                .add(ModBlocks.MALACHITE.get())
+                .add(ModBlocks.MALACHITE_WALL.get())
+                .add(ModBlocks.MALACHITE_SLAB.get())
+                .add(ModBlocks.MALACHITE_STAIRS.get())
+                .add(ModBlocks.POLISHED_MALACHITE.get())
+                .add(ModBlocks.POLISHED_MALACHITE_STAIRS.get())
+                .add(ModBlocks.POLISHED_MALACHITE_SLAB.get())
+                .add(ModBlocks.CHISELED_MALACHITE_BRICKS.get())
+                .add(ModBlocks.CHISELED_ENDSTONE_BRICKS.get())
                 .add(ModBlocks.PACKED_SLUDGE.get());
 
         tag(ModTags.Blocks.MOD_MOSS)
@@ -79,6 +91,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.DEAD_SPORE_WILLOW_LOG.get());
 
         tag(BlockTags.WALLS)
+                .add(ModBlocks.MALACHITE_WALL.get())
+                .add(ModBlocks.MALACHITE_BRICKS_WALL.get())
                 .add(ModBlocks.SLUDGE_BRICK_WALL.get());
 
         tag(BlockTags.FENCES)

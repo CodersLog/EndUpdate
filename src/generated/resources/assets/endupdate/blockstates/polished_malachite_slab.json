@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "endupdate:block/polished_malachite_slab"
+    },
+    "type=double": {
+      "model": "endupdate:block/polished_malachite"
+    },
+    "type=top": {
+      "model": "endupdate:block/polished_malachite_slab_top"
+    }
+  }
+}

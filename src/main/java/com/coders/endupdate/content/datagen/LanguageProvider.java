@@ -78,6 +78,22 @@ public class LanguageProvider extends net.neoforged.neoforge.common.data.Languag
         add(ModBlocks.SLUDGE_INFESTED_ENDSTONE.get().asItem(),"Sludge Infested Endstone");
         add(ModBlocks.SLUDGE_FERMENTED_GRASS.get().asItem(),"Sludge Fermented Grass");
 
+        add(ModBlocks.MALACHITE.get().asItem(),"Malachite");
+        add(ModBlocks.POLISHED_MALACHITE.get().asItem(),"Polished Malachite");
+        add(ModBlocks.MALACHITE_BRICKS.get().asItem(),"Malachite Bricks");
+        add(ModBlocks.CHISELED_MALACHITE_BRICKS.get().asItem(),"Chiseled Malachite Bricks");
+        add(ModBlocks.MALACHITE_STAIRS.get().asItem(),"Malachite Stairs");
+        add(ModBlocks.MALACHITE_SLAB.get().asItem(),"Malachite Slab");
+        add(ModBlocks.MALACHITE_WALL.get().asItem(),"Malachite Wall");
+        add(ModBlocks.POLISHED_MALACHITE_STAIRS.get().asItem(),"Polished Malachite Stairs");
+        add(ModBlocks.POLISHED_MALACHITE_SLAB.get().asItem(),"Polished Malachite Slab");
+        add(ModBlocks.MALACHITE_BRICKS_STAIRS.get().asItem(),"Malachite Brick Stairs");
+        add(ModBlocks.MALACHITE_BRICKS_SLAB.get().asItem(),"Malachite Brick Slab");
+        add(ModBlocks.MALACHITE_BRICKS_WALL.get().asItem(),"Malachite Brick Wall");
+
+        add(ModBlocks.CHISELED_ENDSTONE_BRICKS.get().asItem(),"Chiseled Endstone Bricks");
+
+
         add(ModBlocks.NOLIUM_ENDSTONE.get().asItem(),"Nolium Endstone");
         add(ModBlocks.NOLIUM_MOSS.get().asItem(),"Nolium Moss");
 

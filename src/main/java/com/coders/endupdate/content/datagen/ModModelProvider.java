@@ -42,6 +42,7 @@ public class ModModelProvider extends ModelProvider {
 
         //BLOCKS
         blockModels.createTrivialCube(ModBlocks.SLUDGE.get());
+        blockModels.createTrivialCube(ModBlocks.CHISELED_ENDSTONE_BRICKS.get());
         blockModels.createTrivialBlock(ModBlocks.NOLIUM_ENDSTONE.get(), TexturedModel.CUBE_TOP_BOTTOM);
 
         blockModels.createTrivialCube(ModBlocks.ZENILITE_SLUDGE.get());
@@ -79,6 +80,22 @@ public class ModModelProvider extends ModelProvider {
                 .wall(ModBlocks.SLUDGE_BRICK_WALL.get())
                 .stairs(ModBlocks.SLUDGE_BRICK_STAIRS.get())
                 .slab(ModBlocks.SLUDGE_BRICK_SLAB.get());
+
+        blockModels.createTrivialCube(ModBlocks.CHISELED_MALACHITE_BRICKS.get());
+
+        blockModels.family(ModBlocks.MALACHITE.get())
+                .wall(ModBlocks.MALACHITE_WALL.get())
+                .stairs(ModBlocks.MALACHITE_STAIRS.get())
+                .slab(ModBlocks.MALACHITE_SLAB.get());
+
+        blockModels.family(ModBlocks.MALACHITE_BRICKS.get())
+                .wall(ModBlocks.MALACHITE_BRICKS_WALL.get())
+                .stairs(ModBlocks.MALACHITE_BRICKS_STAIRS.get())
+                .slab(ModBlocks.MALACHITE_BRICKS_SLAB.get());
+
+        blockModels.family(ModBlocks.POLISHED_MALACHITE.get())
+                .stairs(ModBlocks.POLISHED_MALACHITE_STAIRS.get())
+                .slab(ModBlocks.POLISHED_MALACHITE_SLAB.get());
 
         blockModels.family(ModBlocks.SPORE_WILLOW_PLANKS.get())
                 .fence(ModBlocks.SPORE_WILLOW_FENCE.get())

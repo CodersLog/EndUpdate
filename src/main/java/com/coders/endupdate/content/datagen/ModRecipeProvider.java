@@ -15,6 +15,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -197,6 +198,35 @@ public class ModRecipeProvider extends RecipeProvider {
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DEAD_SPORE_WILLOW_SLAB.get(), ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get());
 
 
+        shaped(RecipeCategory.MISC, ModBlocks.POLISHED_MALACHITE.get(),4)
+                .pattern("BB")
+                .pattern("BB")
+                .define('B', ModBlocks.MALACHITE.get())
+                .unlockedBy("has_bismuth", has(ModBlocks.MALACHITE)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.MALACHITE_BRICKS.get(),4)
+                .pattern("BB")
+                .pattern("BB")
+                .define('B', ModBlocks.POLISHED_MALACHITE.get())
+                .unlockedBy("has_bismuth", has(ModBlocks.MALACHITE)).save(output);
+
+
+        stairBuilder(ModBlocks.MALACHITE_STAIRS.get(), Ingredient.of(ModBlocks.MALACHITE)).group("malachite")
+                .unlockedBy("has_bismuth", has(ModBlocks.MALACHITE)).save(output);
+        slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MALACHITE_SLAB.get(), ModBlocks.MALACHITE.get());
+        wall(RecipeCategory.MISC,ModBlocks.MALACHITE_WALL.get(),ModBlocks.MALACHITE);
+
+        stairBuilder(ModBlocks.MALACHITE_BRICKS_STAIRS.get(), Ingredient.of(ModBlocks.MALACHITE_BRICKS)).group("malachite_bricks")
+                .unlockedBy("has_bismuth", has(ModBlocks.MALACHITE_BRICKS)).save(output);
+        slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MALACHITE_BRICKS_SLAB.get(), ModBlocks.MALACHITE_BRICKS.get());
+        wall(RecipeCategory.MISC,ModBlocks.MALACHITE_BRICKS_WALL.get(),ModBlocks.MALACHITE_BRICKS);
+
+        stairBuilder(ModBlocks.POLISHED_MALACHITE_STAIRS.get(), Ingredient.of(ModBlocks.POLISHED_MALACHITE)).group("polished_malachite")
+                .unlockedBy("has_bismuth", has(ModBlocks.SLUDGE_BRICKS)).save(output);
+        slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_MALACHITE_SLAB.get(), ModBlocks.POLISHED_MALACHITE.get());
+
+        chiseled(RecipeCategory.MISC,ModBlocks.CHISELED_MALACHITE_BRICKS.asItem(),ModBlocks.MALACHITE_BRICKS_SLAB);
+        chiseled(RecipeCategory.MISC,ModBlocks.CHISELED_ENDSTONE_BRICKS.asItem(), Blocks.END_STONE_BRICK_SLAB);
 
     }
 
