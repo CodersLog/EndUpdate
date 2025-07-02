@@ -1,10 +1,10 @@
-// 1.21.5	2025-07-02T07:21:30.3584595	Loot Tables
+// 1.21.5	2025-07-02T07:50:52.6491675	Loot Tables
 de162f540d647d917a943610e0c1e47d8db6e092 data/endupdate/loot_table/blocks/chorus_berry_bush.json
 a562d4d88c8980949d641a879f1c4f37231d83b5 data/endupdate/loot_table/blocks/chorus_button.json
 fca2cb72e6e4df9dd0d6227872f6e3dcd758eed4 data/endupdate/loot_table/blocks/chorus_door.json
 3b1b597cb8a769601d82401d0cada9381532cf83 data/endupdate/loot_table/blocks/chorus_fence.json
 02dfeb99cadb54f8602e5861728c995099176f4c data/endupdate/loot_table/blocks/chorus_fence_gate.json
-af78179ded7a417b2c1cecf3392ec182c6f289cf data/endupdate/loot_table/blocks/chorus_leaves.json
+ff6a11b57f0e27b75ce704b044d15f3062e8f0e4 data/endupdate/loot_table/blocks/chorus_leaves.json
 d7c26663b3a4372cfbef1947a1958345d5af29b9 data/endupdate/loot_table/blocks/chorus_log.json
 dcef29002bba21206c7e99143b213d70aa804319 data/endupdate/loot_table/blocks/chorus_planks.json
 8a25bbd894af56de5d900ab0c69581ad1e19f8e0 data/endupdate/loot_table/blocks/chorus_pressure_plate.json

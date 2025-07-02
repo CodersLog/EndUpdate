@@ -106,6 +106,7 @@ public class EndUpdate {
                 output.accept(ModBlocks.DEAD_SPORE_WILLOW_TRAPDOOR.asItem().getDefaultInstance());
                 output.accept(ModBlocks.DEAD_SPORE_WILLOW_PRESSURE_PLATE.asItem().getDefaultInstance());
                 output.accept(ModBlocks.DEAD_SPORE_WILLOW_BUTTON.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SPORE_WILLOW_LEAVES.asItem().getDefaultInstance());
 
 
                 // Add the example item to the tab. For your own tabs, this method is preferred over the event

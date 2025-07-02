@@ -73,6 +73,7 @@ public class ModModelProvider extends ModelProvider {
 
 
         blockModels.createTintedLeaves(ModBlocks.CHORUS_LEAVES.get(), TexturedModel.LEAVES, -12012264);
+        blockModels.createTintedLeaves(ModBlocks.SPORE_WILLOW_LEAVES.get(), TexturedModel.LEAVES, -12012264);
 
         blockModels.family(ModBlocks.SLUDGE_BRICKS.get())
                 .wall(ModBlocks.SLUDGE_BRICK_WALL.get())

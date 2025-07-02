@@ -17,6 +17,9 @@ import net.neoforged.neoforge.registries.NeoForgeRegistries;
 public class ModBiomeModifiers {
 
     public static final ResourceKey<BiomeModifier> ADD_TREE_CHORUS_WOOD = registerKey("add_tree_chorus_wood");
+    public static final ResourceKey<BiomeModifier> ADD_TREE_SPORE_WILLOW_WOOD = registerKey("add_tree_spore_willow_wood");
+    public static final ResourceKey<BiomeModifier> ADD_TREE_DEAD_SPORE_WILLOW_WOOD = registerKey("add_tree_dead_spore_willow_wood");
+
     public static final ResourceKey<BiomeModifier> ADD_SGF = registerKey("add_sgf");
     public static final ResourceKey<BiomeModifier> ADD_CHWART = registerKey("add_chwart");
     public static final ResourceKey<BiomeModifier> ADD_ZENILITE_SLUDGE = registerKey("add_zenilite_sludge");
@@ -35,6 +38,16 @@ public class ModBiomeModifiers {
         context.register(ADD_TREE_CHORUS_WOOD, new BiomeModifiers.AddFeaturesBiomeModifier(
                 HolderSet.direct(biomes.getOrThrow(ModBiomes.SLUDGE_FIELDS)),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.CHORUS_WOOD_PLACED_KEY)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(ADD_TREE_SPORE_WILLOW_WOOD, new BiomeModifiers.AddFeaturesBiomeModifier(
+                HolderSet.direct(biomes.getOrThrow(ModBiomes.NUCLEOSIS)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.SPORE_WILLOW_WOOD_PLACED_KEY)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(ADD_TREE_DEAD_SPORE_WILLOW_WOOD, new BiomeModifiers.AddFeaturesBiomeModifier(
+                HolderSet.direct(biomes.getOrThrow(ModBiomes.NUCLEOSIS)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DEAD_SPORE_WILLOW_WOOD_PLACED_KEY)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
 
         context.register(ADD_CHORUS_BERRY_BUSH, new BiomeModifiers.AddFeaturesBiomeModifier(

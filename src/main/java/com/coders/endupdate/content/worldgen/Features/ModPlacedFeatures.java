@@ -19,8 +19,13 @@ public class ModPlacedFeatures {
 
     public static final ResourceKey<PlacedFeature> CHORUS_BERRY_BUSH_PLACED_KEY = registerKey("chorus_berry_bush_placed");
     public static final ResourceKey<PlacedFeature> SFG_PLACED_KEY = registerKey("sfg_placed_key");
+
     public static final ResourceKey<PlacedFeature> CHWART_PLACED_KEY = registerKey("chwart_placed_key");
+    public static final ResourceKey<PlacedFeature> SPORE_WILLOW_WOOD_PLACED_KEY = registerKey("spore_willow_wood_placed");
+    public static final ResourceKey<PlacedFeature> DEAD_SPORE_WILLOW_WOOD_PLACED_KEY = registerKey("dead_spore_willow_wood_placed");
     public static final ResourceKey<PlacedFeature> CHORUS_WOOD_PLACED_KEY = registerKey("choruswood_placed");
+
+
     public static final ResourceKey<PlacedFeature> ZENILITE_SLUDGE_PLACED_KEY = registerKey("zenilite_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
@@ -29,6 +34,12 @@ public class ModPlacedFeatures {
         register(context, CHORUS_WOOD_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CHORUS_WOOD_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(4, 0.1f, 5),
                         ModBlocks.CHORUS_SAPLING.get()));
+        register(context, SPORE_WILLOW_WOOD_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SPORE_WILLOW_WOOD_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(4, 0.1f, 5),
+                        ModBlocks.SPORE_WILLOW_LEAVES.get()));
+        register(context, DEAD_SPORE_WILLOW_WOOD_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.DEAD_SPORE_WILLOW_WOOD_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(4, 0.1f, 5),
+                        ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get()));
 
         register(context, CHORUS_BERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CHORUS_BERRY_BUSH_KEY),
                 List.of(RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE, BiomeFilter.biome()));

@@ -65,6 +65,7 @@ public class LanguageProvider extends net.neoforged.neoforge.common.data.Languag
         add(ModBlocks.DEAD_SPORE_WILLOW_FENCE.get().asItem(),"Dead Spore Willow Fence");
         add(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_WOOD.get().asItem(),"Stripped Dead Spore Willow Wood");
         add(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_LOG.get().asItem(),"Stripped Dead Spore Willow Log");
+        add(ModBlocks.SPORE_WILLOW_LEAVES.get().asItem(),"Spore Willow Leaves");
 
         add(ModBlocks.ZENILITE_SLUDGE.get().asItem(),"Zenilite Sludge");
 

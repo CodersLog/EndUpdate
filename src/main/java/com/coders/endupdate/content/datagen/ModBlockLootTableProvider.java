@@ -71,6 +71,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.NOLIUM_MOSS.get());
 
         dropOther(ModBlocks.CHORUS_LEAVES.get(),ModBlocks.CHORUS_SAPLING.asItem());
+        dropOther(ModBlocks.SPORE_WILLOW_LEAVES.get(),ModBlocks.SPORE_WILLOW_DOOR.asItem());
 
         dropSelf(ModBlocks.CHORUS_SAPLING.get());
 

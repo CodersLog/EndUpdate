@@ -298,6 +298,28 @@ public class ModBlocks {
                 }
             });
 
+    public static final DeferredBlock<Block> SPORE_WILLOW_LEAVES = registerBlock("spore_willow_leaves",
+            (properties) -> new UntintedParticleLeavesBlock(0.01f, ParticleTypes.CHERRY_LEAVES,
+                    properties.mapColor(MapColor.PLANT).strength(0.2F).randomTicks()
+                            .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:chorus_leaves")))
+                            .sound(SoundType.CHERRY_LEAVES)
+                            .noOcclusion().isValidSpawn(Blocks::ocelotOrParrot).ignitedByLava().pushReaction(PushReaction.DESTROY)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+            });
+
     public static final DeferredBlock<Block> CHORUS_SAPLING = registerBlock("chorus_sapling",
             (properties) -> new ModSaplingBlock(ModTreeGrowers.CHORUSTREE,
                     properties.mapColor(MapColor.PLANT).noCollission().randomTicks().instabreak()

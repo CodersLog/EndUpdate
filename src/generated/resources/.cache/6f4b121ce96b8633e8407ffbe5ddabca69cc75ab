@@ -1,4 +1,4 @@
-// 1.21.5	2025-07-02T07:21:30.3584595	Model Definitions - endupdate
+// 1.21.5	2025-07-02T07:50:52.6561688	Model Definitions - endupdate
 690a249fb56a3d3ad7adb5e209a4d4b714c352e3 assets/endupdate/blockstates/chorus_berry_bush.json
 e83a987d35f9ccc327183f95ed89f074ef19c569 assets/endupdate/blockstates/chorus_button.json
 8079f216afa5f8da993b5c82db58ce3cac497440 assets/endupdate/blockstates/chorus_door.json
@@ -39,6 +39,7 @@ aac3eeba6e45be0851480e2458652d404bc429be assets/endupdate/blockstates/spore_will
 03aae2a3c2d9aed76ddbd20c1e469b740d0955b5 assets/endupdate/blockstates/spore_willow_door.json
 7f48d5dd85e004dded0beb7a3380fab562fd0ae7 assets/endupdate/blockstates/spore_willow_fence.json
 914301298c160e1e2596fd720df20c356b956ec2 assets/endupdate/blockstates/spore_willow_fence_gate.json
+0850f4fd61009e4e8b0abe79e378fb1d19d9ed07 assets/endupdate/blockstates/spore_willow_leaves.json
 e79a1dc0db06deaf640b3dc12b405bea96f453fa assets/endupdate/blockstates/spore_willow_log.json
 1ff1f01e4dc47e0db7d6e1c9fe4998d41b3af8d2 assets/endupdate/blockstates/spore_willow_planks.json
 d23b3c18bceb4dd70035902e0635a155b5edb509 assets/endupdate/blockstates/spore_willow_pressure_plate.json
@@ -95,6 +96,7 @@ b7c18ba8a0ea9ce5a91019abc3fc82a225576e32 assets/endupdate/items/sludge_infested_
 0902c6ef8c52455eaf3178f54f75707df97f38c9 assets/endupdate/items/spore_willow_door.json
 59aa6d1c096cdfc71bb81366d4e5f142a67694ed assets/endupdate/items/spore_willow_fence.json
 5cfee7ec1fb732c8ddb535d0c7e920551447a202 assets/endupdate/items/spore_willow_fence_gate.json
+9943efcebf4152b22108d7692d84135fc5a374a4 assets/endupdate/items/spore_willow_leaves.json
 74b6256a57d118086d130f9cf0b71f144d2fe8cd assets/endupdate/items/spore_willow_log.json
 07caf1354414c51609c078a6a18f102a2a1a775c assets/endupdate/items/spore_willow_planks.json
 c210b20758b7284754f8cca212ca2801dfec4c2d assets/endupdate/items/spore_willow_pressure_plate.json
@@ -215,6 +217,7 @@ f5349d9acb508cbcc33d3d3bb287587979d79995 assets/endupdate/models/block/spore_wil
 b4feb6e8bf594a679ef0ab532259083bb44c29b7 assets/endupdate/models/block/spore_willow_fence_inventory.json
 8d3eb6b6f0f7148c74f17f59321c0b6ffd4eb9c3 assets/endupdate/models/block/spore_willow_fence_post.json
 9f2f13522cc466de2c831b4e6cebffd7df4d3ed2 assets/endupdate/models/block/spore_willow_fence_side.json
+57a8233adf7c9fd8e7245e9dde0ee5a377930f4e assets/endupdate/models/block/spore_willow_leaves.json
 1bb5de62b1f9ddad8f9876ea77bb22e58b201b24 assets/endupdate/models/block/spore_willow_log.json
 7995c71e2e3cf20af00bc705f60afa460a3b4566 assets/endupdate/models/block/spore_willow_log_horizontal.json
 5d8940e93cee0c67be19371385462907bed02cdf assets/endupdate/models/block/spore_willow_planks.json

@@ -31,6 +31,9 @@ import java.util.List;
 public class ModConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> CHORUS_WOOD_KEY = registerKey("choruswood");
+     public static final ResourceKey<ConfiguredFeature<?, ?>> SPORE_WILLOW_WOOD_KEY = registerKey("sporewillowwood");
+     public static final ResourceKey<ConfiguredFeature<?, ?>> DEAD_SPORE_WILLOW_WOOD_KEY = registerKey("deadsporewillowwood");
+
     public static final ResourceKey<ConfiguredFeature<?, ?>> SGF_KEY = registerKey("sgf");
     public static final ResourceKey<ConfiguredFeature<?, ?>> CHWART_KEY = registerKey("chwart");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ZENILITE_LARGE = registerKey("zelilite_large");
@@ -50,6 +53,24 @@ public class ModConfiguredFeatures {
                 new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 2),
 
                 new TwoLayersFeatureSize(3, 4, 4)).dirt(BlockStateProvider.simple(ModBlocks.SLUDGE.get())).build());
+
+        register(context, SPORE_WILLOW_WOOD_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.SPORE_WILLOW_LOG.get()),
+                new ForkingTrunkPlacer(7, 7, 5),
+
+                BlockStateProvider.simple(ModBlocks.SPORE_WILLOW_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(1), ConstantInt.of(1), 1),
+
+                new TwoLayersFeatureSize(3, 1, 6)).dirt(BlockStateProvider.simple(ModBlocks.SLUDGE.get())).build());
+
+        register(context, DEAD_SPORE_WILLOW_WOOD_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.DEAD_SPORE_WILLOW_LOG.get()),
+                new ForkingTrunkPlacer(7, 7, 5),
+
+                BlockStateProvider.simple(Blocks.AIR),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 2),
+
+                new TwoLayersFeatureSize(3, 1, 6)).dirt(BlockStateProvider.simple(ModBlocks.SLUDGE.get())).build());
 
         register(context, CHORUS_BERRY_BUSH_KEY, Feature.RANDOM_PATCH,
                 FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
