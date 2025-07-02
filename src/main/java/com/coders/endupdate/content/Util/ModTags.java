@@ -28,6 +28,7 @@ public class ModTags {
 
         public static final TagKey<Item> CHORUSLOGS = createTag("chorus_logs");
         public static final TagKey<Item> SPORE_WILLOWLOGS = createTag("spore_willow_logs");
+        public static final TagKey<Item> DEAD_SPORE_WILLOWLOGS = createTag("dead_spore_willow_logs");
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(EndUpdate.MODID, name));

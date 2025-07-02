@@ -52,6 +52,15 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.STRIPPED_SPORE_WILLOW_WOOD.asItem())
                 .add(ModBlocks.SPORE_WILLOW_WOOD.asItem())
                 .add(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.asItem())
+                .add(ModBlocks.SPORE_WILLOW_LOG.asItem())
+                .add(ModBlocks.STRIPPED_SPORE_WILLOW_WOOD.asItem())
+                .add(ModBlocks.SPORE_WILLOW_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.asItem())
+                .add(ModBlocks.SPORE_WILLOW_LOG.asItem());
+        tag(ModTags.Items.SPORE_WILLOWLOGS)
+                .add(ModBlocks.STRIPPED_SPORE_WILLOW_WOOD.asItem())
+                .add(ModBlocks.SPORE_WILLOW_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.asItem())
                 .add(ModBlocks.SPORE_WILLOW_LOG.asItem());
 
         this.tag(ItemTags.PLANKS);

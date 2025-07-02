@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "endupdate:block/stripped_dead_spore_willow_log",
+    "side": "endupdate:block/stripped_dead_spore_willow_log"
+  }
+}

@@ -63,7 +63,20 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SPORE_WILLOW_TRAPDOOR.get())
                 .add(ModBlocks.SPORE_WILLOW_PRESSURE_PLATE.get())
                 .add(ModBlocks.SPORE_WILLOW_BUTTON.get())
-                .add(ModBlocks.SPORE_WILLOW_LOG.get());
+                .add(ModBlocks.SPORE_WILLOW_LOG.get())
+                .add(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_LOG.get())
+                .add(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_WOOD.get())
+                .add(ModBlocks.DEAD_SPORE_WILLOW_WOOD.get())
+                .add(ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get())
+                .add(ModBlocks.DEAD_SPORE_WILLOW_STAIRS.get())
+                .add(ModBlocks.DEAD_SPORE_WILLOW_SLAB.get())
+                .add(ModBlocks.DEAD_SPORE_WILLOW_FENCE.get())
+                .add(ModBlocks.DEAD_SPORE_WILLOW_FENCE_GATE.get())
+                .add(ModBlocks.DEAD_SPORE_WILLOW_DOOR.get())
+                .add(ModBlocks.DEAD_SPORE_WILLOW_TRAPDOOR.get())
+                .add(ModBlocks.DEAD_SPORE_WILLOW_PRESSURE_PLATE.get())
+                .add(ModBlocks.DEAD_SPORE_WILLOW_BUTTON.get())
+                .add(ModBlocks.DEAD_SPORE_WILLOW_LOG.get());
 
         tag(BlockTags.WALLS)
                 .add(ModBlocks.SLUDGE_BRICK_WALL.get());

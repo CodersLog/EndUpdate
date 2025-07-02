@@ -93,6 +93,19 @@ public class EndUpdate {
                 output.accept(ModBlocks.SPORE_WILLOW_TRAPDOOR.asItem().getDefaultInstance());
                 output.accept(ModBlocks.SPORE_WILLOW_PRESSURE_PLATE.asItem().getDefaultInstance());
                 output.accept(ModBlocks.SPORE_WILLOW_BUTTON.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEAD_SPORE_WILLOW_LOG.asItem().getDefaultInstance());
+                output.accept(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_LOG.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEAD_SPORE_WILLOW_WOOD.asItem().getDefaultInstance());
+                output.accept(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_WOOD.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEAD_SPORE_WILLOW_PLANKS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEAD_SPORE_WILLOW_STAIRS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEAD_SPORE_WILLOW_SLAB.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEAD_SPORE_WILLOW_FENCE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEAD_SPORE_WILLOW_FENCE_GATE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEAD_SPORE_WILLOW_DOOR.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEAD_SPORE_WILLOW_TRAPDOOR.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEAD_SPORE_WILLOW_PRESSURE_PLATE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEAD_SPORE_WILLOW_BUTTON.asItem().getDefaultInstance());
 
 
                 // Add the example item to the tab. For your own tabs, this method is preferred over the event
@@ -129,6 +142,9 @@ public class EndUpdate {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
 
+
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.DEAD_SPORE_WILLOW_DOOR.get(), RenderType.CUTOUT);
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.DEAD_SPORE_WILLOW_TRAPDOOR.get(), RenderType.CUTOUT);
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHORUS_TRAPDOOR.get(), RenderType.CUTOUT);
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHORUS_DOOR.get(), RenderType.CUTOUT);
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPORE_WILLOW_DOOR.get(), RenderType.CUTOUT);
@@ -168,9 +184,7 @@ public class EndUpdate {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.SLUDGE.asItem().getDefaultInstance());
-            event.accept(ModBlocks.PACKED_SLUDGE.asItem().getDefaultInstance());
-            event.accept(ModBlocks.SLUDGE_BRICKS.asItem().getDefaultInstance());
+
 
         }
     }

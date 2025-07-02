@@ -25,6 +25,19 @@
     "endupdate:spore_willow_trapdoor",
     "endupdate:spore_willow_pressure_plate",
     "endupdate:spore_willow_button",
-    "endupdate:spore_willow_log"
+    "endupdate:spore_willow_log",
+    "endupdate:stripped_dead_spore_willow_log",
+    "endupdate:stripped_dead_spore_willow_wood",
+    "endupdate:dead_spore_willow_wood",
+    "endupdate:dead_spore_willow_planks",
+    "endupdate:dead_spore_willow_stairs",
+    "endupdate:dead_spore_willow_slab",
+    "endupdate:dead_spore_willow_fence",
+    "endupdate:dead_spore_willow_fence_gate",
+    "endupdate:dead_spore_willow_door",
+    "endupdate:dead_spore_willow_trapdoor",
+    "endupdate:dead_spore_willow_pressure_plate",
+    "endupdate:dead_spore_willow_button",
+    "endupdate:dead_spore_willow_log"
   ]
 }

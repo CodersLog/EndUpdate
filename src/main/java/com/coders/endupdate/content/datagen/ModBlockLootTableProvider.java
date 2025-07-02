@@ -103,6 +103,25 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.CHORUS_DOOR.get(),
                 block -> createDoorTable(ModBlocks.CHORUS_DOOR.get()));
 
+        dropSelf(ModBlocks.DEAD_SPORE_WILLOW_LOG.get());
+        dropSelf(ModBlocks.DEAD_SPORE_WILLOW_WOOD.get());
+        dropSelf(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_LOG.get());
+        dropSelf(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_WOOD.get());
+        dropSelf(ModBlocks.DEAD_SPORE_WILLOW_STAIRS.get());
+        dropSelf(ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get());
+        add(ModBlocks.DEAD_SPORE_WILLOW_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DEAD_SPORE_WILLOW_SLAB.get()));
+
+        dropSelf(ModBlocks.DEAD_SPORE_WILLOW_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.DEAD_SPORE_WILLOW_BUTTON.get());
+
+        dropSelf(ModBlocks.DEAD_SPORE_WILLOW_FENCE.get());
+        dropSelf(ModBlocks.DEAD_SPORE_WILLOW_FENCE_GATE.get());
+        dropSelf(ModBlocks.DEAD_SPORE_WILLOW_TRAPDOOR.get());
+
+        add(ModBlocks.DEAD_SPORE_WILLOW_DOOR.get(),
+                block -> createDoorTable(ModBlocks.DEAD_SPORE_WILLOW_DOOR.get()));
+
         dropSelf(ModBlocks.SPORE_WILLOW_LOG.get());
         dropSelf(ModBlocks.SPORE_WILLOW_WOOD.get());
         dropSelf(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.get());

@@ -152,6 +152,52 @@ public class ModRecipeProvider extends RecipeProvider {
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SLUDGE_BRICK_SLAB.get(), ModBlocks.SLUDGE_BRICKS.get());
         wall(RecipeCategory.MISC,ModBlocks.SLUDGE_BRICK_WALL.get(),ModBlocks.SLUDGE_BRICKS);
 
+        shaped(RecipeCategory.MISC, ModBlocks.DEAD_SPORE_WILLOW_DOOR.get(),3)
+                .pattern("BB")
+                .pattern("BB")
+                .pattern("BB")
+                .define('B', ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get())
+                .unlockedBy("has_bismuth", has(ModBlocks.DEAD_SPORE_WILLOW_LOG)).save(output);
+
+
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEAD_SPORE_WILLOW_TRAPDOOR.get(),2)
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get())
+                .unlockedBy("has_bismuth", has(ModBlocks.DEAD_SPORE_WILLOW_LOG)).save(output);
+        stairBuilder(ModBlocks.DEAD_SPORE_WILLOW_STAIRS.get(), Ingredient.of(ModBlocks.DEAD_SPORE_WILLOW_PLANKS)).group("sludge_bricks")
+                .unlockedBy("has_bismuth", has(ModBlocks.DEAD_SPORE_WILLOW_LOG)).save(output);
+
+        planksFromLogs(ModBlocks.DEAD_SPORE_WILLOW_PLANKS, ModTags.Items.DEAD_SPORE_WILLOWLOGS, 4);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEAD_SPORE_WILLOW_FENCE.get(),3)
+                .pattern("BIB")
+                .pattern("BIB")
+                .define('B', ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get())
+                .define('I', Items.STICK)
+                .unlockedBy("has_bismuth", has(ModBlocks.DEAD_SPORE_WILLOW_LOG)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEAD_SPORE_WILLOW_FENCE_GATE.get(),1)
+                .pattern("IBI")
+                .pattern("IBI")
+                .define('B', ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get())
+                .define('I', Items.STICK)
+                .unlockedBy("has_bismuth", has(ModBlocks.DEAD_SPORE_WILLOW_LOG)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEAD_SPORE_WILLOW_PRESSURE_PLATE.get(),1)
+                .pattern("BB")
+                .define('B', ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get())
+                .unlockedBy("has_bismuth", has(ModBlocks.DEAD_SPORE_WILLOW_LOG)).save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.DEAD_SPORE_WILLOW_BUTTON.get(),1)
+                .requires(ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get())
+                .unlockedBy("has_bismuth", has(ModBlocks.DEAD_SPORE_WILLOW_LOG)).save(output);
+
+        slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DEAD_SPORE_WILLOW_SLAB.get(), ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get());
+
+
+
     }
 
     protected void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

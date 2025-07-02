@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "endupdate:dead_spore_willow_planks",
+    "I": "minecraft:stick"
+  },
+  "pattern": [
+    "IBI",
+    "IBI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "endupdate:dead_spore_willow_fence_gate"
+  }
+}

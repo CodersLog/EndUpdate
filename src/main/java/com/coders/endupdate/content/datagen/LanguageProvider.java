@@ -48,9 +48,23 @@ public class LanguageProvider extends net.neoforged.neoforge.common.data.Languag
         add(ModBlocks.CHORUS_SAPLING.get().asItem(),"Chorus Sapling");
         add(ModBlocks.CHORUS_FENCE_GATE.get().asItem(),"Chorus Fence Date");
         add(ModBlocks.CHORUS_FENCE.get().asItem(),"Chorus Fence");
+        add(ModBlocks.CHORUS_LEAVES.get().asItem(),"Chorus Leaves");
         add(ModBlocks.STRIPPED_CHORUS_WOOD.get().asItem(),"Stripped Chorus Wood");
         add(ModBlocks.STRIPPED_CHORUS_LOG.get().asItem(),"Stripped Chorus Log");
 
+        add(ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get().asItem(),"Dead Spore Willow Planks");
+        add(ModBlocks.DEAD_SPORE_WILLOW_SLAB.get().asItem(),"Dead Spore Willow Plank Slab");
+        add(ModBlocks.DEAD_SPORE_WILLOW_BUTTON.get().asItem(),"Dead Spore Willow Button");
+        add(ModBlocks.DEAD_SPORE_WILLOW_WOOD.get().asItem(),"Dead Spore Willow Wood");
+        add(ModBlocks.DEAD_SPORE_WILLOW_TRAPDOOR.get().asItem(),"Dead Spore Willow Trapdoor");
+        add(ModBlocks.DEAD_SPORE_WILLOW_STAIRS.get().asItem(),"Dead Spore Willow Stairs");
+        add(ModBlocks.DEAD_SPORE_WILLOW_DOOR.get().asItem(),"Dead Spore Willow Door");
+        add(ModBlocks.DEAD_SPORE_WILLOW_PRESSURE_PLATE.get().asItem(),"Dead Spore Willow Pressure Plate");
+        add(ModBlocks.DEAD_SPORE_WILLOW_LOG.get().asItem(),"Dead Spore Willow Log");
+        add(ModBlocks.DEAD_SPORE_WILLOW_FENCE_GATE.get().asItem(),"Dead Spore Willow Fence Date");
+        add(ModBlocks.DEAD_SPORE_WILLOW_FENCE.get().asItem(),"Dead Spore Willow Fence");
+        add(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_WOOD.get().asItem(),"Stripped Dead Spore Willow Wood");
+        add(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_LOG.get().asItem(),"Stripped Dead Spore Willow Log");
 
         add(ModBlocks.ZENILITE_SLUDGE.get().asItem(),"Zenilite Sludge");
 

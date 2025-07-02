@@ -304,6 +304,84 @@ public class ModBlocks {
                             .sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY), ModBlocks.SLUDGE));
 
 
+    public static final DeferredBlock<Block> DEAD_SPORE_WILLOW_PLANKS = registerBlock("dead_spore_willow_planks",
+            (properties) -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:dead_spore_willow_planks")))));
+
+    public static final DeferredBlock<Block> DEAD_SPORE_WILLOW_STAIRS = registerBlock("dead_spore_willow_stairs",
+            (properties) -> new StairBlock(ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get().defaultBlockState(),
+                    properties.strength(2f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> DEAD_SPORE_WILLOW_SLAB = registerBlock("dead_spore_willow_slab",
+            (properties) -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:dead_spore_willow_slab")))));
+
+    public static final DeferredBlock<Block> DEAD_SPORE_WILLOW_FENCE = registerBlock("dead_spore_willow_fence",
+            (properties) -> new FenceBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:dead_spore_willow_fence")))));
+
+    public static final DeferredBlock<Block> DEAD_SPORE_WILLOW_FENCE_GATE = registerBlock("dead_spore_willow_fence_gate",
+            (properties) -> new FenceGateBlock(WoodType.ACACIA,BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:dead_spore_willow_fence_gate")))));
+
+    public static final DeferredBlock<Block> DEAD_SPORE_WILLOW_DOOR = registerBlock("dead_spore_willow_door",
+            (properties) -> new DoorBlock(BlockSetType.DARK_OAK,BlockBehaviour.Properties.of()
+                    .strength(5.0F).noOcclusion().pushReaction(PushReaction.DESTROY).setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:dead_spore_willow_door")))));
+
+    public static final DeferredBlock<Block> DEAD_SPORE_WILLOW_TRAPDOOR = registerBlock("dead_spore_willow_trapdoor",
+            (properties) -> new TrapDoorBlock(BlockSetType.DARK_OAK,BlockBehaviour.Properties.of()
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(3.0F)
+                    .noOcclusion()
+                    .isValidSpawn(Blocks::never)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:dead_spore_willow_trapdoor")))
+                    .ignitedByLava()));
+
+    public static final DeferredBlock<Block> DEAD_SPORE_WILLOW_PRESSURE_PLATE = registerBlock("dead_spore_willow_pressure_plate",
+            (properties) -> new PressurePlateBlock(BlockSetType.DARK_OAK,BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:dead_spore_willow_pressure_plate")))));
+
+    public static final DeferredBlock<Block> DEAD_SPORE_WILLOW_BUTTON = registerBlock("dead_spore_willow_button",
+            (properties) -> new ButtonBlock(BlockSetType.DARK_OAK,2,BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:dead_spore_willow_button")))));
+
+    public static final DeferredBlock<Block> DEAD_SPORE_WILLOW_LOG = registerBlock("dead_spore_willow_log",
+            (properties) -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:dead_spore_willow_log")))));
+
+    public static final DeferredBlock<Block> STRIPPED_DEAD_SPORE_WILLOW_LOG = registerBlock("stripped_dead_spore_willow_log",
+            (properties) -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:stripped_dead_spore_willow_log")))));
+
+    public static final DeferredBlock<Block> DEAD_SPORE_WILLOW_WOOD = registerBlock("dead_spore_willow_wood",
+            (properties) -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:dead_spore_willow_wood")))));
+
+    public static final DeferredBlock<Block> STRIPPED_DEAD_SPORE_WILLOW_WOOD = registerBlock("stripped_dead_spore_willow_wood",
+            (properties) -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:stripped_dead_spore_willow_wood")))));
+
+
     //STAIRS
     public static final DeferredBlock<StairBlock> SLUDGE_BRICK_STAIRS = registerBlock("sludge_brick_stairs",
             (properties) -> new StairBlock(ModBlocks.SLUDGE_BRICKS.get().defaultBlockState(),

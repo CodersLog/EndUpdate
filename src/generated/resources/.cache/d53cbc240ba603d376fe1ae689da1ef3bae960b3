@@ -1,9 +1,9 @@
-// 1.21.5	2025-07-01T23:56:35.0442734	Tags for minecraft:item mod id endupdate
+// 1.21.5	2025-07-02T07:21:30.3584595	Tags for minecraft:item mod id endupdate
 893fcdf6d83dc84e463c8198ebaf8321560ee130 data/endupdate/tags/item/chorus_logs.json
-1a8582e40bf2b16674974c34cc275018361ebb8a data/endupdate/tags/item/spore_willow_logs.json
+26b72ffaed0ee3545d21d878f373d15dd4953889 data/endupdate/tags/item/spore_willow_logs.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/item/axes.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/item/hoes.json
-23bbca9b7dfbff03772c9bda470b8c85d3bdbb13 data/minecraft/tags/item/logs_that_burn.json
+6c2d9ff0624d0a8984959eafa669cf78d73baffc data/minecraft/tags/item/logs_that_burn.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/item/pickaxes.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/item/planks.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/item/shovels.json

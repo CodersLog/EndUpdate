@@ -92,6 +92,19 @@ public class ModModelProvider extends ModelProvider {
         blockModels.woodProvider(ModBlocks.SPORE_WILLOW_LOG.get()).logWithHorizontal(ModBlocks.SPORE_WILLOW_LOG.get()).wood(ModBlocks.SPORE_WILLOW_WOOD.get());
         blockModels.woodProvider(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.get()).logWithHorizontal(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.get()).wood(ModBlocks.STRIPPED_SPORE_WILLOW_WOOD.get());
 
+        blockModels.family(ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get())
+                .fence(ModBlocks.DEAD_SPORE_WILLOW_FENCE.get())
+                .fenceGate(ModBlocks.DEAD_SPORE_WILLOW_FENCE_GATE.get())
+                .stairs(ModBlocks.DEAD_SPORE_WILLOW_STAIRS.get())
+                .slab(ModBlocks.DEAD_SPORE_WILLOW_SLAB.get())
+                .button(ModBlocks.DEAD_SPORE_WILLOW_BUTTON.get())
+                .pressurePlate(ModBlocks.DEAD_SPORE_WILLOW_PRESSURE_PLATE.get())
+                .door(ModBlocks.DEAD_SPORE_WILLOW_DOOR.get())
+                .trapdoor(ModBlocks.DEAD_SPORE_WILLOW_TRAPDOOR.get());
+
+        blockModels.woodProvider(ModBlocks.DEAD_SPORE_WILLOW_LOG.get()).logWithHorizontal(ModBlocks.DEAD_SPORE_WILLOW_LOG.get()).wood(ModBlocks.DEAD_SPORE_WILLOW_WOOD.get());
+        blockModels.woodProvider(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_LOG.get()).logWithHorizontal(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_LOG.get()).wood(ModBlocks.STRIPPED_DEAD_SPORE_WILLOW_WOOD.get());
+
 
 
     }
