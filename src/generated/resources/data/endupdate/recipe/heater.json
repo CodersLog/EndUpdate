@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:blaze_powder",
+    "G": "minecraft:heavy_weighted_pressure_plate",
+    "I": "minecraft:iron_ingot",
+    "W": "minecraft:wind_charge"
+  },
+  "pattern": [
+    "IBI",
+    "IWI",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "endupdate:heater"
+  }
+}

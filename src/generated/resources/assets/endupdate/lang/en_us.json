@@ -29,8 +29,11 @@
   "item.endupdate.dead_spore_willow_stairs": "Dead Spore Willow Stairs",
   "item.endupdate.dead_spore_willow_trapdoor": "Dead Spore Willow Trapdoor",
   "item.endupdate.dead_spore_willow_wood": "Dead Spore Willow Wood",
+  "item.endupdate.endstone_bricks_pedestal": "Endstone Brick Pedestal",
+  "item.endupdate.heater": "Heater",
   "item.endupdate.malachite": "Malachite",
   "item.endupdate.malachite_bricks": "Malachite Bricks",
+  "item.endupdate.malachite_bricks_pedestal": "Malachite Brick Pedestal",
   "item.endupdate.malachite_bricks_slab": "Malachite Brick Slab",
   "item.endupdate.malachite_bricks_stairs": "Malachite Brick Stairs",
   "item.endupdate.malachite_bricks_wall": "Malachite Brick Wall",
@@ -49,6 +52,7 @@
   "item.endupdate.sludge_brick_stairs": "Sludge Bricks Stairs",
   "item.endupdate.sludge_brick_wall": "Sludge Bricks Wall",
   "item.endupdate.sludge_bricks": "Sludge Bricks",
+  "item.endupdate.sludge_bricks_pedestal": "Sludge Brick Pedestal",
   "item.endupdate.sludge_fermented_grass": "Sludge Fermented Grass",
   "item.endupdate.sludge_infested_endstone": "Sludge Infested Endstone",
   "item.endupdate.spore_willow_button": "Spore Willow Button",
@@ -70,5 +74,6 @@
   "item.endupdate.stripped_spore_willow_log": "Stripped Spore Willow Log",
   "item.endupdate.stripped_spore_willow_wood": "Stripped Spore Willow Wood",
   "item.endupdate.zenilite_resin": "Zenilite Resin",
-  "item.endupdate.zenilite_sludge": "Zenilite Sludge"
+  "item.endupdate.zenilite_sludge": "Zenilite Sludge",
+  "itemGroup.endupdate": "End Update"
 }

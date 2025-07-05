@@ -1,6 +1,8 @@
 package com.coders.endupdate;
 
 import com.coders.endupdate.content.block.ModBlocks;
+import com.coders.endupdate.content.block.blockentity.BlockEntityRegistry;
+import com.coders.endupdate.content.block.blockentity.blockentityrenderers.PedestalBlockEntityRenderer;
 import com.coders.endupdate.content.effect.ModEffects;
 import com.coders.endupdate.content.item.ModItems;
 import com.coders.endupdate.content.worldgen.EndBiomes;
@@ -11,6 +13,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.minecraft.client.renderer.chunk.RenderChunkRegion;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -120,6 +123,9 @@ public class EndUpdate {
                 output.accept(ModBlocks.MALACHITE_BRICKS_WALL.asItem().getDefaultInstance());
                 output.accept(ModBlocks.CHISELED_MALACHITE_BRICKS.asItem().getDefaultInstance());
                 output.accept(ModBlocks.CHISELED_ENDSTONE_BRICKS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.MALACHITE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.SLUDGE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
 
 
 
@@ -139,6 +145,7 @@ public class EndUpdate {
         // Register the Deferred Register to the mod event bus so blocks get registered
         ModBlocks.register(modEventBus);
         ModEffects.register(modEventBus);
+        BlockEntityRegistry.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
         ModItems.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
@@ -158,8 +165,17 @@ public class EndUpdate {
 
     @EventBusSubscriber(modid = MODID , value = Dist.CLIENT)
     public static class ClientModEvents {
+
+
+        @SubscribeEvent
+        public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
+            event.registerBlockEntityRenderer(BlockEntityRegistry.PEDESTALS.get(), PedestalBlockEntityRenderer::new);
+
+        }
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+
+
 
 
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.DEAD_SPORE_WILLOW_DOOR.get(), RenderType.CUTOUT);
@@ -171,6 +187,9 @@ public class EndUpdate {
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHORUS_BERRY_BUSH.get(), RenderType.CUTOUT);
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.SLUDGE_FERMENTED_GRASS.get(), RenderType.CUTOUT);
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHORUS_WARTS.get(), RenderType.CUTOUT);
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.MALACHITE_BRICKS_PEDESTAL.get(), RenderType.CUTOUT);
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get(), RenderType.CUTOUT);
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.SLUDGE_BRICKS_PEDESTAL.get(), RenderType.CUTOUT);
 
 
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHORUS_SAPLING.get(), RenderType.CUTOUT);
@@ -207,6 +226,8 @@ public class EndUpdate {
 
         }
     }
+
+
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent

@@ -14,6 +14,8 @@ public class LanguageProvider extends net.neoforged.neoforge.common.data.Languag
     @Override
     protected void addTranslations() {
 
+        add("itemGroup.endupdate", "End Update");
+
         add(ModEffects.CHORUS_BERRY_EFFECT.getRegisteredName(), "Random Teleport");
 
         add(ModItems.ZENILITE_RESIN.get(), "Zenilite Resin");
@@ -92,6 +94,11 @@ public class LanguageProvider extends net.neoforged.neoforge.common.data.Languag
         add(ModBlocks.MALACHITE_BRICKS_WALL.get().asItem(),"Malachite Brick Wall");
 
         add(ModBlocks.CHISELED_ENDSTONE_BRICKS.get().asItem(),"Chiseled Endstone Bricks");
+
+        add(ModBlocks.HEATER.get().asItem(),"Heater");
+        add(ModBlocks.MALACHITE_BRICKS_PEDESTAL.get().asItem(),"Malachite Brick Pedestal");
+        add(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get().asItem(),"Endstone Brick Pedestal");
+        add(ModBlocks.SLUDGE_BRICKS_PEDESTAL.get().asItem(),"Sludge Brick Pedestal");
 
 
         add(ModBlocks.NOLIUM_ENDSTONE.get().asItem(),"Nolium Endstone");

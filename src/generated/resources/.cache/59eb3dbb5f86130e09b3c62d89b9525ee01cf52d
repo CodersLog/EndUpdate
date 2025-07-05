@@ -1,4 +1,4 @@
-// 1.21.5	2025-07-02T15:48:55.4005339	Loot Tables
+// 1.21.5	2025-07-05T15:52:26.3233314	Loot Tables
 acc8a19ad4069163051fefd022725ab1155b80ff data/endupdate/loot_table/blocks/chiseled_endstone_bricks.json
 02b69805fb987f16af05df802ae6448452e91ae1 data/endupdate/loot_table/blocks/chiseled_malachite_bricks.json
 de162f540d647d917a943610e0c1e47d8db6e092 data/endupdate/loot_table/blocks/chorus_berry_bush.json
@@ -27,8 +27,11 @@ b8a89fd880a901d6f1a9914635c5793f68c9620c data/endupdate/loot_table/blocks/dead_s
 11703a69b9386af65f4b23a0dea465f82f35a845 data/endupdate/loot_table/blocks/dead_spore_willow_stairs.json
 1807cda9d613310611af948e0e043166c641df01 data/endupdate/loot_table/blocks/dead_spore_willow_trapdoor.json
 6214db28bda8dcb74b44d36cd40134cec7e2bb60 data/endupdate/loot_table/blocks/dead_spore_willow_wood.json
+d004d85b4b46c6ed5b2cc1c3af7c3b09e64cc7fa data/endupdate/loot_table/blocks/endstone_bricks_pedestal.json
+ba68251bcea4e1049dabbffc88455f8effe54d0e data/endupdate/loot_table/blocks/heater.json
 760dc5e61c515e45c4f01d5a97eeb60fced9e36f data/endupdate/loot_table/blocks/malachite.json
 a2c3212e9fb01914387ccee518da6b4da5eb6a72 data/endupdate/loot_table/blocks/malachite_bricks.json
+5107be0ff8895800a7af5593243efc7fbe74eb8d data/endupdate/loot_table/blocks/malachite_bricks_pedestal.json
 2f3368fa97e922b6c4e3340f773a53876035feca data/endupdate/loot_table/blocks/malachite_bricks_slab.json
 f24608ce27288c509c1b3d63e5a92c8b4e1bab78 data/endupdate/loot_table/blocks/malachite_bricks_stairs.json
 d53189bf7df7c865cc81bf4a64a33e43067b2c15 data/endupdate/loot_table/blocks/malachite_bricks_wall.json
@@ -44,6 +47,7 @@ ef95ac8125382ac3d4cc4cbc99010af741527be9 data/endupdate/loot_table/blocks/polish
 a520c051fd94f4ab0338abb160a0d1b6d0473e48 data/endupdate/loot_table/blocks/ruined_end_portal.json
 81d4894c4a5d79af50e18408cfed18ec028adfa3 data/endupdate/loot_table/blocks/sludge.json
 5a26fd876612a2039fd1ac00a9d2c47185116027 data/endupdate/loot_table/blocks/sludge_bricks.json
+f4037b4d55d3d927a9426015f14520dcc3e40147 data/endupdate/loot_table/blocks/sludge_bricks_pedestal.json
 369f135f98cf29ea5194cfd113386f6f20d84acf data/endupdate/loot_table/blocks/sludge_brick_slab.json
 cae74d1a5b4bb5ade1c108e2240dd90ffca5e47b data/endupdate/loot_table/blocks/sludge_brick_stairs.json
 4e669a4701a88f76d426f18f8c783cca88108028 data/endupdate/loot_table/blocks/sludge_brick_wall.json

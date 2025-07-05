@@ -17,6 +17,9 @@ public class ModTags {
         public static final TagKey<Block> SLUDGE_REPLACEABLES = createTag("sludge_replacable");
         public static final TagKey<Block> SLUDGE_BLOCK = createTag("sludge_block_only");
         public static final TagKey<Block> MOD_MOSS = createTag("mod_moss_blocks");
+        public static final TagKey<Block> UTILITY_BLOCKS = createTag("utility_blocks");
+        public static final TagKey<Block> KNOWNBLOCKS = createTag("knownblocks");
+        public static final TagKey<Block> PEDESTALBLOCKS = createTag("pedestals");
 
 
         private static TagKey<Block> createTag(String name) {

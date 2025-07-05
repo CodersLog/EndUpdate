@@ -1,6 +1,7 @@
 package com.coders.endupdate.content.datagen;
 
 import com.coders.endupdate.EndUpdate;
+import com.coders.endupdate.content.Util.ModTags;
 import com.coders.endupdate.content.block.ModBlocks;
 import com.coders.endupdate.content.block.bushes.ChorusBerryBlock;
 import com.coders.endupdate.content.item.ModItems;
@@ -129,7 +130,12 @@ public class ModModelProvider extends ModelProvider {
 
     @Override
     protected Stream<? extends Holder<Block>> getKnownBlocks() {
-        return ModBlocks.BLOCKS.getEntries().stream().filter(x -> !x.is(ModBlocks.RUINED_END_PORTAL));
+        return ModBlocks.BLOCKS.getEntries().stream().filter(x ->
+                !x.is(ModBlocks.RUINED_END_PORTAL) &&
+                        !x.is(ModBlocks.MALACHITE_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.SLUDGE_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.ENDSTONE_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.HEATER));
     }
 
 

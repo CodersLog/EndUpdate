@@ -73,6 +73,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.MALACHITE_SLAB.get()));
 
         dropSelf(ModBlocks.CHISELED_ENDSTONE_BRICKS.get());
+        dropSelf(ModBlocks.HEATER.get());
         dropSelf(ModBlocks.SLUDGE_BRICK_WALL.get());
         dropSelf(ModBlocks.CHORUS_LOG.get());
         dropSelf(ModBlocks.CHORUS_WOOD.get());
@@ -159,6 +160,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         dropSelf(ModBlocks.SPORE_WILLOW_PRESSURE_PLATE.get());
         dropSelf(ModBlocks.SPORE_WILLOW_BUTTON.get());
+
+        dropSelf(ModBlocks.MALACHITE_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.SLUDGE_BRICKS_PEDESTAL.get());
 
         dropSelf(ModBlocks.SPORE_WILLOW_FENCE.get());
         dropSelf(ModBlocks.SPORE_WILLOW_FENCE_GATE.get());

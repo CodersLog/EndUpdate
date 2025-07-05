@@ -43,6 +43,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.MOD_MOSS)
                 .add(ModBlocks.NOLIUM_MOSS.get());
 
+        tag(ModTags.Blocks.UTILITY_BLOCKS)
+                .add(ModBlocks.HEATER.get());
+
 
         tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.ZENILITE_SLUDGE.get())
@@ -102,6 +105,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SLUDGE.get())
                 .add(ModBlocks.PACKED_SLUDGE.get())
                 .add(ModBlocks.SLUDGE_BRICKS.get());
+
+        tag(ModTags.Blocks.KNOWNBLOCKS)
+                .add(ModBlocks.RUINED_END_PORTAL.get())
+                .add(ModBlocks.MALACHITE_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.SLUDGE_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.HEATER.get());
 
 
 

@@ -419,6 +419,33 @@ public class ModBlocks {
                     .sound(SoundType.WOOD)
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:chiseled_endstone_bricks")))));
 
+    public static final DeferredBlock<Block> HEATER = registerBlock("heater",
+            (properties) -> new HeaterBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.IRON)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:heater")))));
+
+    public static final DeferredBlock<Block> MALACHITE_BRICKS_PEDESTAL = registerBlock("malachite_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:malachite_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> ENDSTONE_BRICKS_PEDESTAL = registerBlock("endstone_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:endstone_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> SLUDGE_BRICKS_PEDESTAL = registerBlock("sludge_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:sludge_bricks_pedestal")))));
+
 
     public static final DeferredBlock<Block> MALACHITE = registerBlock("malachite",
             (properties) -> new Block(BlockBehaviour.Properties.of()

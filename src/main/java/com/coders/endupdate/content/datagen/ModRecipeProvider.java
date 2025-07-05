@@ -228,6 +228,43 @@ public class ModRecipeProvider extends RecipeProvider {
         chiseled(RecipeCategory.MISC,ModBlocks.CHISELED_MALACHITE_BRICKS.asItem(),ModBlocks.MALACHITE_BRICKS_SLAB);
         chiseled(RecipeCategory.MISC,ModBlocks.CHISELED_ENDSTONE_BRICKS.asItem(), Blocks.END_STONE_BRICK_SLAB);
 
+        shaped(RecipeCategory.MISC, ModBlocks.HEATER.get(),1)
+                .pattern("IBI")
+                .pattern("IWI")
+                .pattern("GGG")
+                .define('B', Items.BLAZE_POWDER)
+                .define('I', Items.IRON_INGOT)
+                .define('G', Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE)
+                .define('W', Items.WIND_CHARGE)
+                .unlockedBy("has_bismuth", has(Items.IRON_INGOT)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.MALACHITE_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', ModBlocks.MALACHITE_BRICKS)
+                .define('S', ModBlocks.MALACHITE_BRICKS_SLAB)
+                .unlockedBy("has_bismuth", has(ModBlocks.MALACHITE)).save(output);
+shaped(RecipeCategory.MISC, ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.END_STONE_BRICKS)
+                .define('S', Blocks.END_STONE_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Blocks.END_STONE)).save(output);
+shaped(RecipeCategory.MISC, ModBlocks.SLUDGE_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', ModBlocks.SLUDGE_BRICKS)
+                .define('S', ModBlocks.SLUDGE_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(ModBlocks.SLUDGE)).save(output);
+
+
+
+
+
+
     }
 
     protected void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
