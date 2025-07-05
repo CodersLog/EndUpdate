@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:resin_bricks",
+    "S": "minecraft:resin_brick_slab"
+  },
+  "pattern": [
+    "SSS",
+    " B ",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "endupdate:resin_bricks_pedestal"
+  }
+}

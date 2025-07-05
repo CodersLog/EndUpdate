@@ -1,6 +1,6 @@
-// 1.21.5	2025-07-05T15:52:26.3193315	Tags for minecraft:block mod id endupdate
+// 1.21.5	2025-07-06T00:41:17.8561909	Tags for minecraft:block mod id endupdate
 9b1c8bac7f127054b8bd8c4ad1203feb79710c1c data/endupdate/tags/block/infested.json
-a1a98fc7fec03ed56883ad9119ed42d756b97b76 data/endupdate/tags/block/knownblocks.json
+4f978e871ac3e929978a1d1e474d80436bc8e310 data/endupdate/tags/block/knownblocks.json
 34e7f7d7fc0c58df5455fb28afcbf6fc66a11c45 data/endupdate/tags/block/mod_moss_blocks.json
 2233a5dc62808667f7ca2ecd49d7588f8e22ffa8 data/endupdate/tags/block/sludge_blocks.json
 3e93b4340e3b3ee18e882b5d0814296aaf50e29e data/endupdate/tags/block/sludge_block_only.json

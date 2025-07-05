@@ -164,6 +164,19 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.MALACHITE_BRICKS_PEDESTAL.get());
         dropSelf(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get());
         dropSelf(ModBlocks.SLUDGE_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.BLACKSTONE_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.MOSSY_STONE_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.MUD_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.NETHER_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.PRISMARINE_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.QUARTZ_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.RED_NETHER_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.RESIN_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.STONE_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.TUFF_BRICKS_PEDESTAL.get());
+        dropSelf(ModBlocks.DEEPSLATE_BRICKS_PEDESTAL.get());
+
 
         dropSelf(ModBlocks.SPORE_WILLOW_FENCE.get());
         dropSelf(ModBlocks.SPORE_WILLOW_FENCE_GATE.get());

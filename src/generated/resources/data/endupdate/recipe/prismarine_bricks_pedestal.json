@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:prismarine_bricks",
+    "S": "minecraft:prismarine_brick_slab"
+  },
+  "pattern": [
+    "SSS",
+    " B ",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "endupdate:prismarine_bricks_pedestal"
+  }
+}

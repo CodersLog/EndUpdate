@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:mud_bricks",
+    "S": "minecraft:mud_brick_slab"
+  },
+  "pattern": [
+    "SSS",
+    " B ",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "endupdate:mud_bricks_pedestal"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:mossy_stone_bricks",
+    "S": "minecraft:mossy_stone_brick_slab"
+  },
+  "pattern": [
+    "SSS",
+    " B ",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "endupdate:mossy_bricks_pedestal"
+  }
+}

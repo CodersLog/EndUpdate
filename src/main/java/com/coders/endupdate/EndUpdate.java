@@ -5,6 +5,8 @@ import com.coders.endupdate.content.block.blockentity.BlockEntityRegistry;
 import com.coders.endupdate.content.block.blockentity.blockentityrenderers.PedestalBlockEntityRenderer;
 import com.coders.endupdate.content.effect.ModEffects;
 import com.coders.endupdate.content.item.ModItems;
+import com.coders.endupdate.content.screen.ModMenuTypes;
+import com.coders.endupdate.content.screen.custom.PedestalScreen;
 import com.coders.endupdate.content.worldgen.EndBiomes;
 import com.coders.endupdate.content.worldgen.Surface;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -14,6 +16,7 @@ import net.minecraft.client.renderer.chunk.RenderChunkRegion;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -126,7 +129,18 @@ public class EndUpdate {
                 output.accept(ModBlocks.MALACHITE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
                 output.accept(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
                 output.accept(ModBlocks.SLUDGE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
-
+                output.accept(ModBlocks.BLACKSTONE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.MOSSY_STONE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.MUD_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.NETHER_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.PRISMARINE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.QUARTZ_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.RED_NETHER_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.RESIN_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.STONE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.TUFF_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.DEEPSLATE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
 
 
 
@@ -144,7 +158,9 @@ public class EndUpdate {
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         ModBlocks.register(modEventBus);
+
         ModEffects.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
         BlockEntityRegistry.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
         ModItems.register(modEventBus);
@@ -166,6 +182,11 @@ public class EndUpdate {
     @EventBusSubscriber(modid = MODID , value = Dist.CLIENT)
     public static class ClientModEvents {
 
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+            event.register(ModMenuTypes.PEDESTAL_MENU.get(), PedestalScreen::new);
+        }
 
         @SubscribeEvent
         public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {

@@ -432,6 +432,91 @@ public class ModBlocks {
                     .noOcclusion()
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:malachite_bricks_pedestal")))));
 
+    public static final DeferredBlock<Block> BLACKSTONE_BRICKS_PEDESTAL = registerBlock("blackstone_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:blackstone_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> BRICKS_PEDESTAL = registerBlock("bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> DEEPSLATE_BRICKS_PEDESTAL = registerBlock("deepslate_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:deepslate_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> MOSSY_STONE_BRICKS_PEDESTAL = registerBlock("mossy_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:mossy_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> MUD_BRICKS_PEDESTAL = registerBlock("mud_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:mud_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> NETHER_BRICKS_PEDESTAL = registerBlock("nether_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:nether_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> PRISMARINE_BRICKS_PEDESTAL = registerBlock("prismarine_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:prismarine_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> QUARTZ_BRICKS_PEDESTAL = registerBlock("quartz_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:quartz_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> RED_NETHER_BRICKS_PEDESTAL = registerBlock("red_nether_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:red_nether_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> RESIN_BRICKS_PEDESTAL = registerBlock("resin_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:resin_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> STONE_BRICKS_PEDESTAL = registerBlock("stone_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:stone_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> TUFF_BRICKS_PEDESTAL = registerBlock("tuff_bricks_pedestal",
+            (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:tuff_bricks_pedestal")))));
+
+
     public static final DeferredBlock<Block> ENDSTONE_BRICKS_PEDESTAL = registerBlock("endstone_bricks_pedestal",
             (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
                     .strength(4.0F)

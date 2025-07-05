@@ -261,6 +261,102 @@ shaped(RecipeCategory.MISC, ModBlocks.SLUDGE_BRICKS_PEDESTAL.get(),1)
                 .unlockedBy("has_bismuth", has(ModBlocks.SLUDGE)).save(output);
 
 
+        shaped(RecipeCategory.MISC, ModBlocks.BLACKSTONE_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.POLISHED_BLACKSTONE_BRICKS)
+                .define('S', Blocks.POLISHED_BLACKSTONE_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Blocks.BLACKSTONE)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.BRICKS)
+                .define('S', Blocks.BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Items.CLAY)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.MOSSY_STONE_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.MOSSY_STONE_BRICKS)
+                .define('S', Blocks.MOSSY_STONE_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Blocks.MOSSY_STONE_BRICKS)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.MUD_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.MUD_BRICKS)
+                .define('S', Blocks.MUD_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Blocks.PACKED_MUD)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.NETHER_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.NETHER_BRICKS)
+                .define('S', Blocks.NETHER_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Blocks.NETHER_BRICKS)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.PRISMARINE_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.PRISMARINE_BRICKS)
+                .define('S', Blocks.PRISMARINE_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Blocks.PRISMARINE_BRICKS)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.QUARTZ_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.QUARTZ_BRICKS)
+                .define('S', Blocks.QUARTZ_SLAB)
+                .unlockedBy("has_bismuth", has(Items.QUARTZ)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.RED_NETHER_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.RED_NETHER_BRICKS)
+                .define('S', Blocks.RED_NETHER_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Blocks.RED_NETHER_BRICKS)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.RESIN_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.RESIN_BRICKS)
+                .define('S', Blocks.RESIN_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Blocks.RESIN_BRICKS)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.STONE_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.STONE_BRICKS)
+                .define('S', Blocks.STONE_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Blocks.STONE_BRICKS)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.TUFF_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.TUFF_BRICKS)
+                .define('S', Blocks.TUFF_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Blocks.TUFF)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.DEEPSLATE_BRICKS_PEDESTAL.get(),1)
+                .pattern("SSS")
+                .pattern(" B ")
+                .pattern("SSS")
+                .define('B', Blocks.DEEPSLATE_BRICKS)
+                .define('S', Blocks.DEEPSLATE_BRICK_SLAB)
+                .unlockedBy("has_bismuth", has(Blocks.DEEPSLATE)).save(output);
+
 
 
 

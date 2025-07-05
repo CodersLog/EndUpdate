@@ -111,6 +111,18 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.MALACHITE_BRICKS_PEDESTAL.get())
                 .add(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get())
                 .add(ModBlocks.SLUDGE_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.BLACKSTONE_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.BRICKS_PEDESTAL.get())
+                .add(ModBlocks.MOSSY_STONE_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.MUD_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.NETHER_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.PRISMARINE_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.QUARTZ_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.RED_NETHER_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.RESIN_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.STONE_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.TUFF_BRICKS_PEDESTAL.get())
+                .add(ModBlocks.DEEPSLATE_BRICKS_PEDESTAL.get())
                 .add(ModBlocks.HEATER.get());
 
 

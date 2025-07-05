@@ -48,6 +48,18 @@ public class BlockEntityRegistry {
             "pedestals", () -> new BlockEntityType<>(PedestalBlockEntity::new, false,
                     ModBlocks.MALACHITE_BRICKS_PEDESTAL.get() ,
                     ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get(),
+                    ModBlocks.BLACKSTONE_BRICKS_PEDESTAL.get(),
+                    ModBlocks.BRICKS_PEDESTAL.get(),
+                    ModBlocks.MOSSY_STONE_BRICKS_PEDESTAL.get(),
+                    ModBlocks.MUD_BRICKS_PEDESTAL.get(),
+                    ModBlocks.NETHER_BRICKS_PEDESTAL.get(),
+                    ModBlocks.PRISMARINE_BRICKS_PEDESTAL.get(),
+                    ModBlocks.QUARTZ_BRICKS_PEDESTAL.get(),
+                    ModBlocks.RED_NETHER_BRICKS_PEDESTAL.get(),
+                    ModBlocks.RESIN_BRICKS_PEDESTAL.get(),
+                    ModBlocks.STONE_BRICKS_PEDESTAL.get(),
+                    ModBlocks.TUFF_BRICKS_PEDESTAL.get(),
+                    ModBlocks.DEEPSLATE_BRICKS_PEDESTAL.get(),
                     ModBlocks.SLUDGE_BRICKS_PEDESTAL.get()
             )
     );

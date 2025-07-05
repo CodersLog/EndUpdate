@@ -4,6 +4,18 @@
     "endupdate:malachite_bricks_pedestal",
     "endupdate:endstone_bricks_pedestal",
     "endupdate:sludge_bricks_pedestal",
+    "endupdate:blackstone_bricks_pedestal",
+    "endupdate:bricks_pedestal",
+    "endupdate:mossy_bricks_pedestal",
+    "endupdate:mud_bricks_pedestal",
+    "endupdate:nether_bricks_pedestal",
+    "endupdate:prismarine_bricks_pedestal",
+    "endupdate:quartz_bricks_pedestal",
+    "endupdate:red_nether_bricks_pedestal",
+    "endupdate:resin_bricks_pedestal",
+    "endupdate:stone_bricks_pedestal",
+    "endupdate:tuff_bricks_pedestal",
+    "endupdate:deepslate_bricks_pedestal",
     "endupdate:heater"
   ]
 }

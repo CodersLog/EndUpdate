@@ -135,6 +135,18 @@ public class ModModelProvider extends ModelProvider {
                         !x.is(ModBlocks.MALACHITE_BRICKS_PEDESTAL) &&
                         !x.is(ModBlocks.SLUDGE_BRICKS_PEDESTAL) &&
                         !x.is(ModBlocks.ENDSTONE_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.BLACKSTONE_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.MOSSY_STONE_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.MUD_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.NETHER_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.PRISMARINE_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.QUARTZ_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.RED_NETHER_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.RESIN_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.STONE_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.TUFF_BRICKS_PEDESTAL) &&
+                        !x.is(ModBlocks.DEEPSLATE_BRICKS_PEDESTAL) &&
                         !x.is(ModBlocks.HEATER));
     }
 

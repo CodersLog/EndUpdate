@@ -96,9 +96,22 @@ public class LanguageProvider extends net.neoforged.neoforge.common.data.Languag
         add(ModBlocks.CHISELED_ENDSTONE_BRICKS.get().asItem(),"Chiseled Endstone Bricks");
 
         add(ModBlocks.HEATER.get().asItem(),"Heater");
+
         add(ModBlocks.MALACHITE_BRICKS_PEDESTAL.get().asItem(),"Malachite Brick Pedestal");
         add(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get().asItem(),"Endstone Brick Pedestal");
         add(ModBlocks.SLUDGE_BRICKS_PEDESTAL.get().asItem(),"Sludge Brick Pedestal");
+        add(ModBlocks.BLACKSTONE_BRICKS_PEDESTAL.get().asItem(),"Blackstone Brick Pedestal");
+        add(ModBlocks.BRICKS_PEDESTAL.get().asItem(),"Brick Pedestal");
+        add(ModBlocks.MOSSY_STONE_BRICKS_PEDESTAL.get().asItem(),"Mossy Stone Brick Pedestal");
+        add(ModBlocks.MUD_BRICKS_PEDESTAL.get().asItem(),"Mud Brick Pedestal");
+        add(ModBlocks.NETHER_BRICKS_PEDESTAL.get().asItem(),"Nether Brick Pedestal");
+        add(ModBlocks.PRISMARINE_BRICKS_PEDESTAL.get().asItem(),"Prismarine Brick Pedestal");
+        add(ModBlocks.QUARTZ_BRICKS_PEDESTAL.get().asItem(),"Quartz Brick Pedestal");
+        add(ModBlocks.RED_NETHER_BRICKS_PEDESTAL.get().asItem(),"Red Nether Brick Pedestal");
+        add(ModBlocks.RESIN_BRICKS_PEDESTAL.get().asItem(),"Resin Brick Pedestal");
+        add(ModBlocks.STONE_BRICKS_PEDESTAL.get().asItem(),"Stone Brick Pedestal");
+        add(ModBlocks.TUFF_BRICKS_PEDESTAL.get().asItem(),"Tuff Brick Pedestal");
+        add(ModBlocks.DEEPSLATE_BRICKS_PEDESTAL.get().asItem(),"Deepslate Brick Pedestal");
 
 
         add(ModBlocks.NOLIUM_ENDSTONE.get().asItem(),"Nolium Endstone");
