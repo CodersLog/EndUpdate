@@ -95,8 +95,6 @@ public class LanguageProvider extends net.neoforged.neoforge.common.data.Languag
 
         add(ModBlocks.CHISELED_ENDSTONE_BRICKS.get().asItem(),"Chiseled Endstone Bricks");
 
-        add(ModBlocks.HEATER.get().asItem(),"Heater");
-
         add(ModBlocks.MALACHITE_BRICKS_PEDESTAL.get().asItem(),"Malachite Brick Pedestal");
         add(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get().asItem(),"Endstone Brick Pedestal");
         add(ModBlocks.SLUDGE_BRICKS_PEDESTAL.get().asItem(),"Sludge Brick Pedestal");

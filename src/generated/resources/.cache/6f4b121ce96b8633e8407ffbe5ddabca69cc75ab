@@ -1,4 +1,4 @@
-// 1.21.5	2025-07-06T00:41:17.8637059	Model Definitions - endupdate
+// 1.21.5	2025-07-06T14:39:37.8306579	Model Definitions - endupdate
 a1f2b9f19f067a3ec0433629dbd23be2c926144d assets/endupdate/blockstates/chiseled_endstone_bricks.json
 f84745dddbcb22f643907379c99ddf5162dd607b assets/endupdate/blockstates/chiseled_malachite_bricks.json
 690a249fb56a3d3ad7adb5e209a4d4b714c352e3 assets/endupdate/blockstates/chorus_berry_bush.json
@@ -100,7 +100,6 @@ a338f99fdf88c3fdf27d41198648cdd9f5e05954 assets/endupdate/items/dead_spore_willo
 8a070adbfa54221cc21d30b5de83d3393b139443 assets/endupdate/items/dead_spore_willow_wood.json
 708e0cb6dd95afbcf4f23d5c2f0d7f8e037d5fb0 assets/endupdate/items/deepslate_bricks_pedestal.json
 0316655105bc23ce5330e78c0e8b3a9104f6d964 assets/endupdate/items/endstone_bricks_pedestal.json
-e56085d7b416e12be9bb33d9ca78ade37f517541 assets/endupdate/items/heater.json
 912e596fc6d75491c64d8b4bddb87e5f778f6c4b assets/endupdate/items/malachite.json
 db1ed1dd0c05d5920ef9de1d6aa32d4ba1e6a561 assets/endupdate/items/malachite_bricks.json
 00f314f9f9b7c677c9786a2cd249e44555cae242 assets/endupdate/items/malachite_bricks_pedestal.json

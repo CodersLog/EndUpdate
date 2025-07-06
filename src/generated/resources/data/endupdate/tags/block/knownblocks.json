@@ -15,7 +15,6 @@
     "endupdate:resin_bricks_pedestal",
     "endupdate:stone_bricks_pedestal",
     "endupdate:tuff_bricks_pedestal",
-    "endupdate:deepslate_bricks_pedestal",
-    "endupdate:heater"
+    "endupdate:deepslate_bricks_pedestal"
   ]
 }

@@ -1,4 +1,4 @@
-// 1.21.5	2025-07-06T00:41:17.8591916	Loot Tables
+// 1.21.5	2025-07-06T14:39:37.8241098	Loot Tables
 5647ef8772a55a591166e6dbadfd134791a8705b data/endupdate/loot_table/blocks/blackstone_bricks_pedestal.json
 aca03201a068e820956dc6e4cf2ce130e6cc370a data/endupdate/loot_table/blocks/bricks_pedestal.json
 acc8a19ad4069163051fefd022725ab1155b80ff data/endupdate/loot_table/blocks/chiseled_endstone_bricks.json
@@ -31,7 +31,6 @@ b8a89fd880a901d6f1a9914635c5793f68c9620c data/endupdate/loot_table/blocks/dead_s
 6214db28bda8dcb74b44d36cd40134cec7e2bb60 data/endupdate/loot_table/blocks/dead_spore_willow_wood.json
 a6b1c64d7f1e15c11faa54a80c1320052430ed74 data/endupdate/loot_table/blocks/deepslate_bricks_pedestal.json
 d004d85b4b46c6ed5b2cc1c3af7c3b09e64cc7fa data/endupdate/loot_table/blocks/endstone_bricks_pedestal.json
-ba68251bcea4e1049dabbffc88455f8effe54d0e data/endupdate/loot_table/blocks/heater.json
 760dc5e61c515e45c4f01d5a97eeb60fced9e36f data/endupdate/loot_table/blocks/malachite.json
 a2c3212e9fb01914387ccee518da6b4da5eb6a72 data/endupdate/loot_table/blocks/malachite_bricks.json
 5107be0ff8895800a7af5593243efc7fbe74eb8d data/endupdate/loot_table/blocks/malachite_bricks_pedestal.json

@@ -73,7 +73,6 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.MALACHITE_SLAB.get()));
 
         dropSelf(ModBlocks.CHISELED_ENDSTONE_BRICKS.get());
-        dropSelf(ModBlocks.HEATER.get());
         dropSelf(ModBlocks.SLUDGE_BRICK_WALL.get());
         dropSelf(ModBlocks.CHORUS_LOG.get());
         dropSelf(ModBlocks.CHORUS_WOOD.get());

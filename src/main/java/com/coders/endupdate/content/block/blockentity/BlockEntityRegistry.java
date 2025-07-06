@@ -39,10 +39,7 @@ public class BlockEntityRegistry {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITY_TYPES =
             DeferredRegister.create(Registries.BLOCK_ENTITY_TYPE, EndUpdate.MODID);
 
-    public static final Supplier<BlockEntityType<HeaterBlockEntity>> HEATER_BLOCK_ENTITY = BLOCK_ENTITY_TYPES.register(
-            "heater_block_entity", () -> new BlockEntityType<>(HeaterBlockEntity::new, false, ModBlocks.HEATER.get()
-            )
-    );
+
 
     public static final Supplier<BlockEntityType<PedestalBlockEntity>> PEDESTALS = BLOCK_ENTITY_TYPES.register(
             "pedestals", () -> new BlockEntityType<>(PedestalBlockEntity::new, false,

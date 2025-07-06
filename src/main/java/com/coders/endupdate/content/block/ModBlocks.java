@@ -418,13 +418,7 @@ public class ModBlocks {
                     .strength(4.0F)
                     .sound(SoundType.WOOD)
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:chiseled_endstone_bricks")))));
-
-    public static final DeferredBlock<Block> HEATER = registerBlock("heater",
-            (properties) -> new HeaterBlock(BlockBehaviour.Properties.of()
-                    .strength(4.0F)
-                    .sound(SoundType.IRON)
-                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:heater")))));
-
+    
     public static final DeferredBlock<Block> MALACHITE_BRICKS_PEDESTAL = registerBlock("malachite_bricks_pedestal",
             (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
                     .strength(4.0F)

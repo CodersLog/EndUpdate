@@ -1,6 +1,7 @@
 package com.coders.endupdate.content.Util;
 
 import com.coders.endupdate.EndUpdate;
+import net.minecraft.core.Holder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
@@ -32,6 +33,7 @@ public class ModTags {
         public static final TagKey<Item> CHORUSLOGS = createTag("chorus_logs");
         public static final TagKey<Item> SPORE_WILLOWLOGS = createTag("spore_willow_logs");
         public static final TagKey<Item> DEAD_SPORE_WILLOWLOGS = createTag("dead_spore_willow_logs");
+        public static final TagKey<Item> ITEMSTHATCANHEAT = createTag("items_that_can_heat");
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(EndUpdate.MODID, name));

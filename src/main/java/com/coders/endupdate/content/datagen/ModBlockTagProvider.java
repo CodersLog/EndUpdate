@@ -43,8 +43,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.MOD_MOSS)
                 .add(ModBlocks.NOLIUM_MOSS.get());
 
-        tag(ModTags.Blocks.UTILITY_BLOCKS)
-                .add(ModBlocks.HEATER.get());
+        tag(ModTags.Blocks.UTILITY_BLOCKS);
+
 
 
         tag(BlockTags.MINEABLE_WITH_SHOVEL)
@@ -122,8 +122,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RESIN_BRICKS_PEDESTAL.get())
                 .add(ModBlocks.STONE_BRICKS_PEDESTAL.get())
                 .add(ModBlocks.TUFF_BRICKS_PEDESTAL.get())
-                .add(ModBlocks.DEEPSLATE_BRICKS_PEDESTAL.get())
-                .add(ModBlocks.HEATER.get());
+                .add(ModBlocks.DEEPSLATE_BRICKS_PEDESTAL.get());
 
 
 

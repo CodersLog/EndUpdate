@@ -146,8 +146,7 @@ public class ModModelProvider extends ModelProvider {
                         !x.is(ModBlocks.RESIN_BRICKS_PEDESTAL) &&
                         !x.is(ModBlocks.STONE_BRICKS_PEDESTAL) &&
                         !x.is(ModBlocks.TUFF_BRICKS_PEDESTAL) &&
-                        !x.is(ModBlocks.DEEPSLATE_BRICKS_PEDESTAL) &&
-                        !x.is(ModBlocks.HEATER));
+                        !x.is(ModBlocks.DEEPSLATE_BRICKS_PEDESTAL));
     }
 
 

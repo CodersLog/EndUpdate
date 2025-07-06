@@ -1,4 +1,4 @@
-// 1.21.5	2025-07-06T00:41:17.847651	My Recipes
+// 1.21.5	2025-07-06T14:39:37.8085701	My Recipes
 a1b56cd2646f48e0fdde5a8a4eef9f9236db2115 data/endupdate/advancement/recipes/building_blocks/chorus_planks.json
 a815643ba57a1f5d4498d381d96432366b92f493 data/endupdate/advancement/recipes/building_blocks/chorus_slab.json
 7f1536369af128b4af2b1fe6b88a4eb612d88ff2 data/endupdate/advancement/recipes/building_blocks/chorus_stairs.json
@@ -34,7 +34,6 @@ db607fcc4facb9f9103aba454710b26066fd9e7a data/endupdate/advancement/recipes/misc
 0c659b0799329c42a6197f7f17066bdd4cb026b4 data/endupdate/advancement/recipes/misc/dead_spore_willow_trapdoor.json
 96b015c9ad67192939ac316a63cc89e67b8cf0a7 data/endupdate/advancement/recipes/misc/deepslate_bricks_pedestal.json
 c495301bffea1ff5db595df9ce1e6e1c21696878 data/endupdate/advancement/recipes/misc/endstone_bricks_pedestal.json
-e6239efc29971bb9e7b67ad245b10690ec6f038a data/endupdate/advancement/recipes/misc/heater.json
 c0deb634c72fc108e92f209db37aeee0a812abf4 data/endupdate/advancement/recipes/misc/malachite_bricks.json
 56a90384e88b4d686c56b61a6e6393997e5b10af data/endupdate/advancement/recipes/misc/malachite_bricks_pedestal.json
 00b21513940dc1edcfaaf60752e7961eee7e8081 data/endupdate/advancement/recipes/misc/malachite_bricks_wall.json
@@ -83,7 +82,6 @@ c4779aafccd5cab939172aaf4826daf23c82dbd8 data/endupdate/recipe/dead_spore_willow
 aa5d945521d21302c30297dd8163a884f6f43d66 data/endupdate/recipe/dead_spore_willow_trapdoor.json
 4b3f115212499894609d25c3a2fd8b36fa3bf41a data/endupdate/recipe/deepslate_bricks_pedestal.json
 eb02135acdbcfbda68501e9e293e74b1efb61fe9 data/endupdate/recipe/endstone_bricks_pedestal.json
-05f2aa0a1131fb837f3dc7f76f04a2a9a790c100 data/endupdate/recipe/heater.json
 20a7a7ebc42c8d50ebb4cdeadf38f38a23f5ebc6 data/endupdate/recipe/malachite_bricks.json
 9733458a5a75d356bc6323ea657c13c3d7202834 data/endupdate/recipe/malachite_bricks_pedestal.json
 dd69d0e553b19d871cce4fdd009ff0a5f390073f data/endupdate/recipe/malachite_bricks_slab.json
