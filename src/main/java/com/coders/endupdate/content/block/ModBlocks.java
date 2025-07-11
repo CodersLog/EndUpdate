@@ -1,6 +1,7 @@
 package com.coders.endupdate.content.block;
 
 import com.coders.endupdate.EndUpdate;
+import com.coders.endupdate.content.block.abnormal.ChorusButtonBlock;
 import com.coders.endupdate.content.block.bushes.ChorusBerryBlock;
 import com.coders.endupdate.content.block.custom.*;
 import com.coders.endupdate.content.block.infested.NoliumInfestedEndstoneBlock;
@@ -122,10 +123,78 @@ public class ModBlocks {
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:chorus_pressure_plate")))));
 
     public static final DeferredBlock<Block> CHORUS_BUTTON = registerBlock("chorus_button",
-            (properties) -> new ButtonBlock(BlockSetType.DARK_OAK,2,BlockBehaviour.Properties.of()
+            (properties) -> new ChorusButtonBlock(BlockSetType.DARK_OAK,2,BlockBehaviour.Properties.of()
                     .strength(4.0F)
                     .sound(SoundType.WOOD)
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:chorus_button")))));
+
+
+    public static final DeferredBlock<Block> BECK_PLANKS = registerBlock("beck_planks",
+            (properties) -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:beck_planks")))));
+
+    public static final DeferredBlock<Block> BECK_STAIRS = registerBlock("beck_stairs",
+            (properties) -> new StairBlock(ModBlocks.BECK_PLANKS.get().defaultBlockState(),
+                    properties.strength(2f).sound(SoundType.WOOD).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> BECK_SLAB = registerBlock("beck_slab",
+            (properties) -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:beck_slab")))));
+
+    public static final DeferredBlock<Block> BECK_FENCE = registerBlock("beck_fence",
+            (properties) -> new FenceBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:beck_fence")))));
+
+    public static final DeferredBlock<Block> BECK_FENCE_GATE = registerBlock("beck_fence_gate",
+            (properties) -> new FenceGateBlock(WoodType.ACACIA,BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:beck_fence_gate")))));
+
+    public static final DeferredBlock<Block> BECK_DOOR = registerBlock("beck_door",
+            (properties) -> new DoorBlock(BlockSetType.DARK_OAK,BlockBehaviour.Properties.of()
+                    .strength(5.0F).noOcclusion().pushReaction(PushReaction.DESTROY).setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:beck_door")))));
+
+    public static final DeferredBlock<Block> BECK_TRAPDOOR = registerBlock("beck_trapdoor",
+            (properties) -> new TrapDoorBlock(BlockSetType.DARK_OAK,BlockBehaviour.Properties.of()
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(3.0F)
+                    .noOcclusion()
+                    .isValidSpawn(Blocks::never)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:beck_trapdoor")))
+                    .ignitedByLava()));
+
+    public static final DeferredBlock<Block> BECK_PRESSURE_PLATE = registerBlock("beck_pressure_plate",
+            (properties) -> new PressurePlateBlock(BlockSetType.DARK_OAK,BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:beck_pressure_plate")))));
+
+    public static final DeferredBlock<Block> BECK_BUTTON = registerBlock("beck_button",
+            (properties) -> new ButtonBlock(BlockSetType.DARK_OAK,2,BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:beck_button")))));
+
+    public static final DeferredBlock<Block> BECK_LOG = registerBlock("beck_log",
+            (properties) -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:beck_log")))));
+
+
+    public static final DeferredBlock<Block> BECK_WOOD = registerBlock("beck_wood",
+            (properties) -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.WOOD)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:beck_wood")))));
+
 
 
     public static final DeferredBlock<Block> PACKED_SLUDGE = registerBlock("packed_sludge",
@@ -418,7 +487,7 @@ public class ModBlocks {
                     .strength(4.0F)
                     .sound(SoundType.WOOD)
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:chiseled_endstone_bricks")))));
-    
+
     public static final DeferredBlock<Block> MALACHITE_BRICKS_PEDESTAL = registerBlock("malachite_bricks_pedestal",
             (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()
                     .strength(4.0F)
@@ -460,6 +529,21 @@ public class ModBlocks {
                     .sound(SoundType.STONE)
                     .noOcclusion()
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:mud_bricks_pedestal")))));
+
+    public static final DeferredBlock<Block> NOLITE_BRICKS = registerBlock("nolite_bricks",
+            (properties) -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:nolite_bricks")))));
+
+
+    public static final DeferredBlock<Block> NOLIUM_GEYSER = registerBlock("nolium_geyser",
+            (properties) -> new NoliumGeyserBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0F)
+                    .sound(SoundType.STONE)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.parse("endupdate:nolium_geyser")))));
+
 
     public static final DeferredBlock<Block> NETHER_BRICKS_PEDESTAL = registerBlock("nether_bricks_pedestal",
             (properties) -> new PedestalBlock(BlockBehaviour.Properties.of()

@@ -1,4 +1,15 @@
-// 1.21.5	2025-07-06T14:39:37.8241098	Loot Tables
+// 1.21.5	2025-07-11T20:58:22.7730866	Loot Tables
+5272767f4c2b83bf89247f9971db46816a6674fc data/endupdate/loot_table/blocks/beck_button.json
+a2d5d0be997cae7d5d397e13af92090b5e146d6d data/endupdate/loot_table/blocks/beck_door.json
+3b4aedb3defb87b8c33301c747bbd5f0e02ef877 data/endupdate/loot_table/blocks/beck_fence.json
+e8cbbe5bf2bfa84f203920a22fcb6ebe2cb251e2 data/endupdate/loot_table/blocks/beck_fence_gate.json
+64a9d55c715a4a129a182924887c3b9df981118a data/endupdate/loot_table/blocks/beck_log.json
+4ed665db0c685c0419e2920f3699cb009179c736 data/endupdate/loot_table/blocks/beck_planks.json
+f816ebcaf3ae372b4d82a42ffbb0746c2d39b62e data/endupdate/loot_table/blocks/beck_pressure_plate.json
+4165b4b3de8f0cea3e81889ea5abe033ad032c94 data/endupdate/loot_table/blocks/beck_slab.json
+890db2d8ae0d03e9890fa28f7c7c51becf680f06 data/endupdate/loot_table/blocks/beck_stairs.json
+05d37a3c0af0c8a5941c8cfb1e5c0ff045cee842 data/endupdate/loot_table/blocks/beck_trapdoor.json
+2070d7212d3f53314a1e96e52e6167b03980f158 data/endupdate/loot_table/blocks/beck_wood.json
 5647ef8772a55a591166e6dbadfd134791a8705b data/endupdate/loot_table/blocks/blackstone_bricks_pedestal.json
 aca03201a068e820956dc6e4cf2ce130e6cc370a data/endupdate/loot_table/blocks/bricks_pedestal.json
 acc8a19ad4069163051fefd022725ab1155b80ff data/endupdate/loot_table/blocks/chiseled_endstone_bricks.json
@@ -43,7 +54,9 @@ d86f85a730c60af2f02044df2c7e583f04efee62 data/endupdate/loot_table/blocks/malach
 a54f974c96d397c007f17aaaf1225a9972591dc1 data/endupdate/loot_table/blocks/mossy_bricks_pedestal.json
 c2065989e0696ebb5eab174f9bea09a0ac87e0d4 data/endupdate/loot_table/blocks/mud_bricks_pedestal.json
 01e9cec527cb4839d2f030d93757b8816e5ca06a data/endupdate/loot_table/blocks/nether_bricks_pedestal.json
+3e1b947e0ab83480ef8695c311f2d9d67d50ea38 data/endupdate/loot_table/blocks/nolite_bricks.json
 121d2ec621622d064e6ef5dbb71c4986565e3d38 data/endupdate/loot_table/blocks/nolium_endstone.json
+c32d23db25067eb5da2472d6852abc5d0ed86539 data/endupdate/loot_table/blocks/nolium_geyser.json
 670159600100753b3cc17fbd82155334f7150b9d data/endupdate/loot_table/blocks/nolium_moss.json
 1d13ffe2f01fd6bc1f0f9635bd8dd51410c8bafc data/endupdate/loot_table/blocks/packed_sludge.json
 a53ffcdc319a18c9e3cec974a7e9c96a292538c3 data/endupdate/loot_table/blocks/polished_malachite.json

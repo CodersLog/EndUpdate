@@ -38,6 +38,17 @@
     "endupdate:dead_spore_willow_trapdoor",
     "endupdate:dead_spore_willow_pressure_plate",
     "endupdate:dead_spore_willow_button",
-    "endupdate:dead_spore_willow_log"
+    "endupdate:dead_spore_willow_log",
+    "endupdate:beck_wood",
+    "endupdate:beck_planks",
+    "endupdate:beck_stairs",
+    "endupdate:beck_slab",
+    "endupdate:beck_fence",
+    "endupdate:beck_fence_gate",
+    "endupdate:beck_door",
+    "endupdate:beck_trapdoor",
+    "endupdate:beck_pressure_plate",
+    "endupdate:beck_button",
+    "endupdate:beck_log"
   ]
 }

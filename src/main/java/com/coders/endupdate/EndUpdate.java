@@ -140,6 +140,19 @@ public class EndUpdate {
                 output.accept(ModBlocks.STONE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
                 output.accept(ModBlocks.TUFF_BRICKS_PEDESTAL.asItem().getDefaultInstance());
                 output.accept(ModBlocks.DEEPSLATE_BRICKS_PEDESTAL.asItem().getDefaultInstance());
+                output.accept(ModBlocks.NOLITE_BRICKS.asItem().getDefaultInstance());
+                output.accept(ModItems.GEM_OF_THE_SUN);
+                output.accept(ModBlocks.BECK_LOG.asItem().getDefaultInstance());
+                output.accept(ModBlocks.BECK_WOOD.asItem().getDefaultInstance());
+                output.accept(ModBlocks.BECK_PLANKS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.BECK_STAIRS.asItem().getDefaultInstance());
+                output.accept(ModBlocks.BECK_SLAB.asItem().getDefaultInstance());
+                output.accept(ModBlocks.BECK_FENCE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.BECK_FENCE_GATE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.BECK_DOOR.asItem().getDefaultInstance());
+                output.accept(ModBlocks.BECK_TRAPDOOR.asItem().getDefaultInstance());
+                output.accept(ModBlocks.BECK_PRESSURE_PLATE.asItem().getDefaultInstance());
+                output.accept(ModBlocks.BECK_BUTTON.asItem().getDefaultInstance());
 
 
 
@@ -210,7 +223,8 @@ public class EndUpdate {
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.MALACHITE_BRICKS_PEDESTAL.get(), RenderType.CUTOUT);
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get(), RenderType.CUTOUT);
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.SLUDGE_BRICKS_PEDESTAL.get(), RenderType.CUTOUT);
-
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BECK_DOOR.get(), RenderType.CUTOUT);
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BECK_TRAPDOOR.get(), RenderType.CUTOUT);
 
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHORUS_SAPLING.get(), RenderType.CUTOUT);
 

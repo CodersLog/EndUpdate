@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "endupdate:beck_planks",
+    "I": "minecraft:stick"
+  },
+  "pattern": [
+    "IBI",
+    "IBI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "endupdate:beck_fence_gate"
+  }
+}

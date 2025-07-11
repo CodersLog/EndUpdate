@@ -94,6 +94,7 @@ public class LanguageProvider extends net.neoforged.neoforge.common.data.Languag
         add(ModBlocks.MALACHITE_BRICKS_WALL.get().asItem(),"Malachite Brick Wall");
 
         add(ModBlocks.CHISELED_ENDSTONE_BRICKS.get().asItem(),"Chiseled Endstone Bricks");
+        add(ModBlocks.NOLIUM_GEYSER.get().asItem(),"Nolium Geyser");
 
         add(ModBlocks.MALACHITE_BRICKS_PEDESTAL.get().asItem(),"Malachite Brick Pedestal");
         add(ModBlocks.ENDSTONE_BRICKS_PEDESTAL.get().asItem(),"Endstone Brick Pedestal");
@@ -110,10 +111,25 @@ public class LanguageProvider extends net.neoforged.neoforge.common.data.Languag
         add(ModBlocks.STONE_BRICKS_PEDESTAL.get().asItem(),"Stone Brick Pedestal");
         add(ModBlocks.TUFF_BRICKS_PEDESTAL.get().asItem(),"Tuff Brick Pedestal");
         add(ModBlocks.DEEPSLATE_BRICKS_PEDESTAL.get().asItem(),"Deepslate Brick Pedestal");
+        add(ModBlocks.NOLITE_BRICKS.get().asItem(),"Nolite Bricks");
+
+        add(ModBlocks.BECK_PLANKS.get().asItem(),"Beck Planks");
+        add(ModBlocks.BECK_SLAB.get().asItem(),"Beck Plank Slab");
+        add(ModBlocks.BECK_BUTTON.get().asItem(),"Beck Button");
+        add(ModBlocks.BECK_WOOD.get().asItem(),"Beck Wood");
+        add(ModBlocks.BECK_TRAPDOOR.get().asItem(),"Beck Trapdoor");
+        add(ModBlocks.BECK_STAIRS.get().asItem(),"Beck Stairs");
+        add(ModBlocks.BECK_DOOR.get().asItem(),"Beck Door");
+        add(ModBlocks.BECK_PRESSURE_PLATE.get().asItem(),"Beck Pressure Plate");
+        add(ModBlocks.BECK_LOG.get().asItem(),"Beck Log");
+        add(ModBlocks.BECK_FENCE_GATE.get().asItem(),"Beck Fence Date");
+        add(ModBlocks.BECK_FENCE.get().asItem(),"Beck Fence");
 
 
         add(ModBlocks.NOLIUM_ENDSTONE.get().asItem(),"Nolium Endstone");
         add(ModBlocks.NOLIUM_MOSS.get().asItem(),"Nolium Moss");
+
+        add(ModItems.GEM_OF_THE_SUN.get(), "Gem Of The Sun");
 
 
         add(ModBlocks.RUINED_END_PORTAL.get().asItem(),"Ruined End Portal");

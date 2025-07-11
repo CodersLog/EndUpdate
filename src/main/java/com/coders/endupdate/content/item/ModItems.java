@@ -4,6 +4,7 @@ import com.coders.endupdate.EndUpdate;
 import com.coders.endupdate.content.block.ModBlocks;
 import com.coders.endupdate.content.block.custom.ModFlammableRotatedPillarBlock;
 import com.coders.endupdate.content.effect.ModEffects;
+import com.coders.endupdate.content.item.custom.SunGemItem;
 import com.coders.endupdate.content.item.food.ModFoodProperties;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -35,6 +36,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> ZENILITE_RESIN = ITEMS.registerItem("zenilite_resin",
             (properties) -> new Item( properties.setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("endupdate:zenilite_resin")))));
+
+    public static final DeferredItem<Item> GEM_OF_THE_SUN = ITEMS.registerItem("sun_gem",
+            (properties) -> new SunGemItem( properties.useCooldown(1.0F).stacksTo(1).setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("endupdate:sun_gem")))));
 
 
     public static void register(IEventBus eventBus) {

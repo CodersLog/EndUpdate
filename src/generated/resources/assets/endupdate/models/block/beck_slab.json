@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "endupdate:block/beck_planks",
+    "side": "endupdate:block/beck_planks",
+    "top": "endupdate:block/beck_planks"
+  }
+}

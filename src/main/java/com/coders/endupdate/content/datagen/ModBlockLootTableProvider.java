@@ -72,7 +72,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.MALACHITE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.MALACHITE_SLAB.get()));
 
+        dropWhenSilkTouch(ModBlocks.NOLIUM_GEYSER.get());
+
         dropSelf(ModBlocks.CHISELED_ENDSTONE_BRICKS.get());
+        dropSelf(ModBlocks.NOLITE_BRICKS.get());
         dropSelf(ModBlocks.SLUDGE_BRICK_WALL.get());
         dropSelf(ModBlocks.CHORUS_LOG.get());
         dropSelf(ModBlocks.CHORUS_WOOD.get());
@@ -81,6 +84,23 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropWhenSilkTouch(ModBlocks.ZENILITE_SLUDGE.get());
         dropOther(ModBlocks.ZENILITE_SLUDGE.get(),ModBlocks.SLUDGE.asItem());
         dropSelf(ModBlocks.RUINED_END_PORTAL.get());
+
+        dropSelf(ModBlocks.BECK_LOG.get());
+        dropSelf(ModBlocks.BECK_WOOD.get());
+        dropSelf(ModBlocks.BECK_STAIRS.get());
+        dropSelf(ModBlocks.BECK_PLANKS.get());
+        add(ModBlocks.BECK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.BECK_SLAB.get()));
+
+        dropSelf(ModBlocks.BECK_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.BECK_BUTTON.get());
+
+        dropSelf(ModBlocks.BECK_FENCE.get());
+        dropSelf(ModBlocks.BECK_FENCE_GATE.get());
+        dropSelf(ModBlocks.BECK_TRAPDOOR.get());
+
+        add(ModBlocks.BECK_DOOR.get(),
+                block -> createDoorTable(ModBlocks.BECK_DOOR.get()));
 
 
 

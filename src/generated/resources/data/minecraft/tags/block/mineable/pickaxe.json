@@ -1,10 +1,26 @@
 {
   "values": [
     "endupdate:sludge_bricks",
+    "endupdate:nolite_bricks",
     "endupdate:sludge_brick_wall",
     "endupdate:sludge_brick_stairs",
     "endupdate:sludge_brick_slab",
     "endupdate:sludge_infested_endstone",
+    "endupdate:malachite_bricks_pedestal",
+    "endupdate:endstone_bricks_pedestal",
+    "endupdate:sludge_bricks_pedestal",
+    "endupdate:blackstone_bricks_pedestal",
+    "endupdate:bricks_pedestal",
+    "endupdate:mossy_bricks_pedestal",
+    "endupdate:mud_bricks_pedestal",
+    "endupdate:nether_bricks_pedestal",
+    "endupdate:prismarine_bricks_pedestal",
+    "endupdate:quartz_bricks_pedestal",
+    "endupdate:red_nether_bricks_pedestal",
+    "endupdate:resin_bricks_pedestal",
+    "endupdate:stone_bricks_pedestal",
+    "endupdate:tuff_bricks_pedestal",
+    "endupdate:deepslate_bricks_pedestal",
     "endupdate:malachite_bricks",
     "endupdate:malachite_bricks_stairs",
     "endupdate:malachite_bricks_slab",
@@ -18,6 +34,7 @@
     "endupdate:polished_malachite_slab",
     "endupdate:chiseled_malachite_bricks",
     "endupdate:chiseled_endstone_bricks",
+    "endupdate:nolium_geyser",
     "endupdate:packed_sludge"
   ]
 }

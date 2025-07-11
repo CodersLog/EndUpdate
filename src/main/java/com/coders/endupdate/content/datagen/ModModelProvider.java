@@ -39,16 +39,32 @@ public class ModModelProvider extends ModelProvider {
 
         //ITEMS
 
+        itemModels.generateFlatItem(ModItems.GEM_OF_THE_SUN.get(), ModelTemplates.FLAT_ITEM);
+
         itemModels.generateFlatItem(ModItems.ZENILITE_RESIN.get(), ModelTemplates.FLAT_ITEM);
 
         //BLOCKS
         blockModels.createTrivialCube(ModBlocks.SLUDGE.get());
+        blockModels.createTrivialCube(ModBlocks.NOLITE_BRICKS.get());
         blockModels.createTrivialCube(ModBlocks.CHISELED_ENDSTONE_BRICKS.get());
         blockModels.createTrivialBlock(ModBlocks.NOLIUM_ENDSTONE.get(), TexturedModel.CUBE_TOP_BOTTOM);
 
         blockModels.createTrivialCube(ModBlocks.ZENILITE_SLUDGE.get());
         blockModels.createTrivialBlock(ModBlocks.SLUDGE_INFESTED_ENDSTONE.get(), TexturedModel.CUBE_TOP_BOTTOM);
         blockModels.createTrivialCube(ModBlocks.PACKED_SLUDGE.get());
+
+        blockModels.family(ModBlocks.BECK_PLANKS.get())
+                .fence(ModBlocks.BECK_FENCE.get())
+                .fenceGate(ModBlocks.BECK_FENCE_GATE.get())
+                .stairs(ModBlocks.BECK_STAIRS.get())
+                .slab(ModBlocks.BECK_SLAB.get())
+                .button(ModBlocks.BECK_BUTTON.get())
+                .pressurePlate(ModBlocks.BECK_PRESSURE_PLATE.get())
+                .door(ModBlocks.BECK_DOOR.get())
+                .trapdoor(ModBlocks.BECK_TRAPDOOR.get());
+
+        blockModels.woodProvider(ModBlocks.BECK_LOG.get()).logWithHorizontal(ModBlocks.BECK_LOG.get()).wood(ModBlocks.BECK_WOOD.get());
+
 
 
         blockModels.family(ModBlocks.CHORUS_PLANKS.get())
@@ -110,6 +126,8 @@ public class ModModelProvider extends ModelProvider {
 
         blockModels.woodProvider(ModBlocks.SPORE_WILLOW_LOG.get()).logWithHorizontal(ModBlocks.SPORE_WILLOW_LOG.get()).wood(ModBlocks.SPORE_WILLOW_WOOD.get());
         blockModels.woodProvider(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.get()).logWithHorizontal(ModBlocks.STRIPPED_SPORE_WILLOW_LOG.get()).wood(ModBlocks.STRIPPED_SPORE_WILLOW_WOOD.get());
+
+        blockModels.createTrivialBlock(ModBlocks.NOLIUM_GEYSER.get(), TexturedModel.CUBE_TOP_BOTTOM);
 
         blockModels.family(ModBlocks.DEAD_SPORE_WILLOW_PLANKS.get())
                 .fence(ModBlocks.DEAD_SPORE_WILLOW_FENCE.get())

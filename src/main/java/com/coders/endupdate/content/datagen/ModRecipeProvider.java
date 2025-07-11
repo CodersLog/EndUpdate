@@ -229,6 +229,52 @@ public class ModRecipeProvider extends RecipeProvider {
         chiseled(RecipeCategory.MISC,ModBlocks.CHISELED_ENDSTONE_BRICKS.asItem(), Blocks.END_STONE_BRICK_SLAB);
 
 
+        shaped(RecipeCategory.MISC, ModBlocks.BECK_DOOR.get(),3)
+                .pattern("BB")
+                .pattern("BB")
+                .pattern("BB")
+                .define('B', ModBlocks.BECK_PLANKS.get())
+                .unlockedBy("has_bismuth", has(ModBlocks.BECK_LOG)).save(output);
+
+
+
+        shaped(RecipeCategory.MISC, ModBlocks.BECK_TRAPDOOR.get(),2)
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModBlocks.BECK_PLANKS.get())
+                .unlockedBy("has_bismuth", has(ModBlocks.BECK_LOG)).save(output);
+        stairBuilder(ModBlocks.BECK_STAIRS.get(), Ingredient.of(ModBlocks.BECK_PLANKS)).group("sludge_bricks")
+                .unlockedBy("has_bismuth", has(ModBlocks.BECK_LOG)).save(output);
+
+        planksFromLogs(ModBlocks.BECK_PLANKS, ModTags.Items.BECKLOGS, 4);
+
+        shaped(RecipeCategory.MISC, ModBlocks.BECK_FENCE.get(),3)
+                .pattern("BIB")
+                .pattern("BIB")
+                .define('B', ModBlocks.BECK_PLANKS.get())
+                .define('I', Items.STICK)
+                .unlockedBy("has_bismuth", has(ModBlocks.BECK_LOG)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.BECK_FENCE_GATE.get(),1)
+                .pattern("IBI")
+                .pattern("IBI")
+                .define('B', ModBlocks.BECK_PLANKS.get())
+                .define('I', Items.STICK)
+                .unlockedBy("has_bismuth", has(ModBlocks.BECK_LOG)).save(output);
+
+        shaped(RecipeCategory.MISC, ModBlocks.BECK_PRESSURE_PLATE.get(),1)
+                .pattern("BB")
+                .define('B', ModBlocks.BECK_PLANKS.get())
+                .unlockedBy("has_bismuth", has(ModBlocks.BECK_LOG)).save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.BECK_BUTTON.get(),1)
+                .requires(ModBlocks.BECK_PLANKS.get())
+                .unlockedBy("has_bismuth", has(ModBlocks.BECK_LOG)).save(output);
+
+        slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BECK_SLAB.get(), ModBlocks.BECK_PLANKS.get());
+
+
+
         shaped(RecipeCategory.MISC, ModBlocks.MALACHITE_BRICKS_PEDESTAL.get(),1)
                 .pattern("SSS")
                 .pattern(" B ")

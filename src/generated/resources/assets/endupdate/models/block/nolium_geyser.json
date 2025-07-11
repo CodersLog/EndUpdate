@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "endupdate:block/nolium_geyser_bottom",
+    "side": "endupdate:block/nolium_geyser_side",
+    "top": "endupdate:block/nolium_geyser_top"
+  }
+}
